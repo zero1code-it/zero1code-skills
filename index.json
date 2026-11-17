@@ -9988,8 +9988,7 @@
       "author": "zero1code",
       "groups": [
         "zero1code skill",
-        "SAP",
-        "SAP · Utilities"
+        "SAP"
       ],
       "hasScripts": false,
       "files": [
@@ -10005,8 +10004,8 @@
         },
         {
           "path": "references/billing.md",
-          "size": 13231,
-          "sha256": "caba7b74b64f8968ddf21f8efd530e51f333730b49c8b3f4946811c59117c8c2"
+          "size": 13031,
+          "sha256": "8bd1a42785f618455099d6a7811a4234ba2b9cfad741d19ae439cb01a9b68446"
         },
         {
           "path": "references/credit-fica.md",
