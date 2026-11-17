@@ -1,0 +1,36 @@
+# Weekly: report the third-party skills that are behind their author's repository in one issue.
+# Nothing is updated automatically: a maintainer reviews each change and moves `ref` in catalog.json by hand.
+name: upstream
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Monday 06:00 UTC
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+concurrency: upstream
+jobs:
+  upstream:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - id: check
+        run: node scripts/check-upstream.mjs --out "$RUNNER_TEMP/report.md"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Open, update or close the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BEHIND: ${{ steps.check.outputs.behind }}
+        run: |
+          title="Skill di terzi da aggiornare"
+          n=$(gh issue list --state open --search "\"$title\" in:title" --json number,title --jq "map(select(.title == \"$title\"))[0].number // empty")
+          if [ "$BEHIND" != "0" ]; then
+            if [ -n "$n" ]; then gh issue edit "$n" --body-file "$RUNNER_TEMP/report.md"
+            else gh issue create --title "$title" --body-file "$RUNNER_TEMP/report.md"; fi
+          elif [ -n "$n" ]; then
+            gh issue close "$n" --comment "Tutte le skill di terzi sono allineate."
+          fi
