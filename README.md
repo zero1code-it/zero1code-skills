@@ -19,6 +19,9 @@ da zero dalla documentazione pubblica delle librerie (non derivano da altre skil
 (`describe.py --check`), aiuti per ciò che le librerie non fanno (`helpers.py`) e, dove serve, modifiche tracciate
 (`track.py`), ricalcolo delle formule (`recalc.py`), compilazione di modelli (`replace_text.py`) e anteprima
 (`render.py`, richiede LibreOffice). I test Python sono in `tests/` (`python -m unittest discover -s tests`).
+`zero1-sap-isu`: conoscenza di SAP IS-U standard (ECC 6.0 e S/4HANA Utilities) per Master data, Meter reading, Billing
+e Credit/FI-CA, con stato verificato/incerto di ogni transazione e tabella e procedure di analisi; solo `references/`,
+nessuno script.
 
 ## Aggiungere una skill nostra
 

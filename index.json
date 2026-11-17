@@ -9981,6 +9981,71 @@
       ]
     },
     {
+      "name": "zero1-sap-isu",
+      "description": "Conoscenza di SAP IS-U standard (SAP for Utilities, ECC 6.0 e SAP S/4HANA Utilities) per le quattro aree Master data, Meter reading (letture), Billing (fatturazione, tariffe) e Credit / FI-CA (contract accounting, solleciti, pagamenti). Usala quando l'utente chiede di oggetti, tabelle, transazioni, BAPI, exit o processi IS-U: partner commerciale, conto contrattuale, contratto, impianto, premise, apparecchi, letture, subentro/cessazione (move-in/move-out), bolletta, errore di fatturazione, outsorting, piano acconti, saldo cliente, sollecito, BPEM, IDE/IDEX, differenze ECC vs S/4HANA, o nomina EVER, EANL, EVBS, EABL, ERCH, ERDK, DFKKOP, EA00, EA19, EC50E, EG31, EL28, FPL9, FPVA. Non copre le personalizzazioni Z/Y dei clienti.",
+      "license": "MIT",
+      "category": "SAP",
+      "author": "zero1code",
+      "groups": [
+        "zero1code skill",
+        "SAP",
+        "SAP · Utilities"
+      ],
+      "hasScripts": false,
+      "files": [
+        {
+          "path": "LICENSE",
+          "size": 1066,
+          "sha256": "bf049ae2612de2e15ecbca8339a718bb5fd347d23e6c28c460fca0d9aa5c8f6e"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 4748,
+          "sha256": "7dc26d3653d537e63f74b98f2b07ec3da313249834acde42274dc43c18861edb"
+        },
+        {
+          "path": "references/billing.md",
+          "size": 13231,
+          "sha256": "caba7b74b64f8968ddf21f8efd530e51f333730b49c8b3f4946811c59117c8c2"
+        },
+        {
+          "path": "references/credit-fica.md",
+          "size": 21936,
+          "sha256": "e887f4886b0e5c81ea768eb7e5357cc6e16b2e8533ed05b8b9a450f9f7919966"
+        },
+        {
+          "path": "references/ecc-vs-s4hana.md",
+          "size": 11190,
+          "sha256": "53ca11c0b6f11855ead15e0720bcfa25770eee4745e348230cfd0ccbb2230d41"
+        },
+        {
+          "path": "references/estensioni.md",
+          "size": 13273,
+          "sha256": "472a415f0b9d6ce3c547b2df7a5e3a3ef42c34bd97333f05cf25482a3cadd0fe"
+        },
+        {
+          "path": "references/glossario.md",
+          "size": 9167,
+          "sha256": "1451e3e0b5da0ff7e0b1c998880f979a1983d3df1091980f866d8c838739f490"
+        },
+        {
+          "path": "references/italia.md",
+          "size": 7242,
+          "sha256": "8bb11ece3cd5d450ce0911a298b02b621abd57ecbdda28c9cafb381aef5795e7"
+        },
+        {
+          "path": "references/masterdata.md",
+          "size": 12689,
+          "sha256": "5a11c38d9ed61b91272a67d175387cb6da7b9acce4953bb6f93ee44db5c5db97"
+        },
+        {
+          "path": "references/meter-reading.md",
+          "size": 11218,
+          "sha256": "05fd843a4f4e650c84d457768bb8274d932e8cbc81046cabab41c241e111392c"
+        }
+      ]
+    },
+    {
       "name": "zero1-skill-creator",
       "description": "Guide the user through creating, improving or checking an agent skill (a SKILL.md with instructions the agent loads on demand) and save it where zero1code reads it. Use when the user says \"crea una skill\", \"voglio una skill che...\", \"trasforma questa procedura in una skill\", \"migliora/correggi la mia skill\", or asks how to teach the agent a repeatable task, a house style or a company procedure.",
       "license": "MIT",
