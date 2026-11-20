@@ -18,7 +18,8 @@ test('the user guide never names the engine\'s origin (users see only zero1code)
   const ORIGIN = /deepseek|harness|\bdsh\b|cordis|upstream/i
   for (const file of ['SKILL.md', 'guida.md', 'novita.md']) {
     read('zero1code-guida', file).split(/\r?\n/).forEach((line, i) => {
-      assert.ok(!ORIGIN.test(line), `zero1code-guida/${file}:${i + 1} names the engine's origin: ${line.trim()}`)
+      // "zero1code Harness" is our product name (portal, app), not the engine
+      assert.ok(!ORIGIN.test(line.replace(/zero1code Harness/g, '')), `zero1code-guida/${file}:${i + 1} names the engine's origin: ${line.trim()}`)
     })
   }
 })
