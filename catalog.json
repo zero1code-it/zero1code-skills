@@ -16,13 +16,6 @@
           "groups": [
             "Agenti e produttività"
           ]
-        },
-        {
-          "name": "caveman-commit",
-          "path": "skills/caveman-commit",
-          "groups": [
-            "Agenti e produttività"
-          ]
         }
       ]
     },
@@ -46,62 +39,6 @@
           "groups": [
             "Strumenti e integrazioni",
             "AI e conoscenza"
-          ]
-        },
-        {
-          "name": "web-artifacts-builder",
-          "path": "skills/web-artifacts-builder",
-          "groups": [
-            "Sviluppo web"
-          ]
-        },
-        {
-          "name": "webapp-testing",
-          "path": "skills/webapp-testing",
-          "groups": [
-            "Sviluppo web",
-            "Strumenti e integrazioni"
-          ]
-        }
-      ]
-    },
-    {
-      "repo": "BagelHole/DevOps-Security-Agent-Skills",
-      "ref": "0365f57a079b1332f95cf26e31dd2d5332a8399f",
-      "license": "MIT",
-      "licenseFiles": [
-        "LICENSE"
-      ],
-      "skills": [
-        {
-          "name": "linux-administration",
-          "path": "infrastructure/servers/linux-administration",
-          "groups": [
-            "DevOps e sicurezza"
-          ]
-        },
-        {
-          "name": "linux-hardening",
-          "path": "security/hardening/linux-hardening",
-          "groups": [
-            "DevOps e sicurezza"
-          ]
-        }
-      ]
-    },
-    {
-      "repo": "coreyhaines31/marketingskills",
-      "ref": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
-      "license": "MIT",
-      "licenseFiles": [
-        "LICENSE"
-      ],
-      "skills": [
-        {
-          "name": "marketing-ideas",
-          "path": "skills/marketing-ideas",
-          "groups": [
-            "Marketing"
           ]
         }
       ]
@@ -132,49 +69,11 @@
       ],
       "skills": [
         {
-          "name": "ask-sonner",
-          "path": "skills/ask-sonner",
-          "groups": [
-            "Sviluppo web"
-          ]
-        },
-        {
-          "name": "break-ui",
-          "path": "skills/break-ui",
-          "groups": [
-            "Sviluppo web",
-            "Design e UI"
-          ]
-        },
-        {
-          "name": "mobile-native",
-          "path": "skills/mobile-native",
-          "groups": [
-            "Mobile",
-            "Sviluppo web"
-          ]
-        },
-        {
-          "name": "pick-ui-library",
-          "path": "skills/pick-ui-library",
-          "groups": [
-            "Sviluppo web",
-            "Design e UI"
-          ]
-        },
-        {
           "name": "prototype",
           "path": "skills/prototype",
           "groups": [
             "Design e UI",
             "Sviluppo web"
-          ]
-        },
-        {
-          "name": "write-swift",
-          "path": "skills/write-swift",
-          "groups": [
-            "Mobile"
           ]
         }
       ]
@@ -192,41 +91,6 @@
           "path": "plugins/stitch-utilities/skills/design-md",
           "groups": [
             "Design e UI"
-          ]
-        }
-      ]
-    },
-    {
-      "repo": "iuliandita/skills",
-      "ref": "08994a745152d28e749975c34dd9ea7934ba0ceb",
-      "license": "MIT",
-      "licenseFiles": [
-        "LICENSE"
-      ],
-      "skills": [
-        {
-          "name": "debian-ubuntu",
-          "path": "skills/debian-ubuntu",
-          "groups": [
-            "DevOps e sicurezza"
-          ]
-        }
-      ]
-    },
-    {
-      "repo": "langfuse/skills",
-      "ref": "f0bcb13088b490c04b3f4870bace17f6d57b199c",
-      "license": "MIT",
-      "licenseFiles": [
-        "LICENSE"
-      ],
-      "skills": [
-        {
-          "name": "langfuse",
-          "path": "skills/langfuse",
-          "groups": [
-            "AI e conoscenza",
-            "Dati e backend"
           ]
         }
       ]
@@ -259,13 +123,6 @@
         {
           "name": "brainstorming",
           "path": "skills/brainstorming",
-          "groups": [
-            "Agenti e produttività"
-          ]
-        },
-        {
-          "name": "using-superpowers",
-          "path": "skills/using-superpowers",
           "groups": [
             "Agenti e produttività"
           ]
@@ -344,15 +201,6 @@
           ]
         },
         {
-          "name": "sap-ai-core",
-          "path": "plugins/sap-ai-core/skills/sap-ai-core",
-          "category": "SAP",
-          "groups": [
-            "SAP",
-            "SAP · BTP e cloud"
-          ]
-        },
-        {
           "name": "sap-btp-best-practices",
           "path": "plugins/sap-btp-best-practices/skills/sap-btp-best-practices",
           "category": "SAP",
@@ -389,24 +237,6 @@
           ]
         },
         {
-          "name": "sap-bw-query",
-          "path": "plugins/sap-bw-query/skills/sap-bw-query",
-          "category": "SAP",
-          "groups": [
-            "SAP",
-            "SAP · Dati e analytics"
-          ]
-        },
-        {
-          "name": "sap-cloud-sdk-ai",
-          "path": "plugins/sap-cloud-sdk-ai/skills/sap-cloud-sdk-ai",
-          "category": "SAP",
-          "groups": [
-            "SAP",
-            "SAP · BTP e cloud"
-          ]
-        },
-        {
           "name": "sap-fiori-tools",
           "path": "plugins/sap-fiori-tools/skills/sap-fiori-tools",
           "category": "SAP",
@@ -418,15 +248,6 @@
         {
           "name": "sap-hana-cli",
           "path": "plugins/sap-hana-cli/skills/sap-hana-cli",
-          "category": "SAP",
-          "groups": [
-            "SAP",
-            "SAP · Dati e analytics"
-          ]
-        },
-        {
-          "name": "sap-sac-scripting",
-          "path": "plugins/sap-sac-scripting/skills/sap-sac-scripting",
           "category": "SAP",
           "groups": [
             "SAP",
@@ -472,30 +293,6 @@
       ]
     },
     {
-      "repo": "supabase/agent-skills",
-      "ref": "c9be0e931b7930f7d02126d04774d904c381e7d7",
-      "license": "MIT",
-      "licenseFiles": [
-        "LICENSE"
-      ],
-      "skills": [
-        {
-          "name": "supabase",
-          "path": "skills/supabase",
-          "groups": [
-            "Dati e backend"
-          ]
-        },
-        {
-          "name": "supabase-postgres-best-practices",
-          "path": "skills/supabase-postgres-best-practices",
-          "groups": [
-            "Dati e backend"
-          ]
-        }
-      ]
-    },
-    {
       "repo": "vercel-labs/agent-browser",
       "ref": "4605d82cfc20dbd051f57a631b5b7130e32141a5",
       "license": "Apache-2.0",
@@ -508,21 +305,6 @@
           "path": "skills/agent-browser",
           "groups": [
             "Strumenti e integrazioni",
-            "Sviluppo web"
-          ]
-        }
-      ]
-    },
-    {
-      "repo": "vercel-labs/agent-skills",
-      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
-      "license": "MIT",
-      "licenseFiles": [],
-      "skills": [
-        {
-          "name": "vercel-react-best-practices",
-          "path": "skills/react-best-practices",
-          "groups": [
             "Sviluppo web"
           ]
         }
@@ -544,29 +326,19 @@
           ]
         }
       ]
-    },
-    {
-      "repo": "wshobson/agents",
-      "ref": "42203085cfc5736204bf0f6d436dff7e1da0bf3f",
-      "license": "MIT",
-      "licenseFiles": [
-        "LICENSE"
-      ],
-      "skills": [
-        {
-          "name": "rag-implementation",
-          "path": "plugins/llm-application-dev/skills/rag-implementation",
-          "groups": [
-            "AI e conoscenza"
-          ]
-        }
-      ]
     }
   ],
-  "defaultSkills": ["controllo-app-desktop", "zero1code-guida"],
+  "defaultSkills": [
+    "controllo-app-desktop",
+    "zero1code-guida"
+  ],
   "hostedGroups": {
-    "controllo-app-desktop": ["Agenti e produttività"],
-    "zero1code-guida": ["Agenti e produttività"],
+    "controllo-app-desktop": [
+      "Agenti e produttività"
+    ],
+    "zero1code-guida": [
+      "Agenti e produttività"
+    ],
     "zero1-docx": [
       "Office e documenti"
     ],
