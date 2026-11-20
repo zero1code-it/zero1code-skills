@@ -60,6 +60,20 @@ cambiata. Non aggiorna nulla: chi mantiene il catalogo rivede il diff e sposta `
 
 Ogni skill ha da 1 a 4 gruppi (può comparire in più gruppi): l'app li usa per filtrare l'elenco. Per i riferimenti si scrivono in `catalog.json` (campo `groups`, obbligatorio: la costruzione dell'indice fallisce senza); per le skill ospitate si aggiunge il nome in `hostedGroups` (il gruppo `zero1code skill` è automatico). Un nome con ` · ` (es. `SAP · ABAP`) è un sotto-gruppo di `SAP`.
 
+## Skill predefinite dell'app
+
+Le skill elencate in `defaultSkills` (`catalog.json`) sono ospitate qui e l'app desktop le installa da sola: l'indice le
+segna con `default: true`. La build dell'app le prende da qui a un commit fissato (file `default-skills.lock.json` del
+repo dell'app) e le include nell'installer, così ci sono anche al primo avvio senza rete; a ogni avvio l'app le porta
+alla versione del catalogo, ma solo se l'utente non le ha modificate. Un push su `main` arriva quindi a tutti gli utenti
+senza un rilascio dell'app: i controlli che prima si facevano al rilascio (la guida non nomina l'origine del motore,
+`approved.json` contiene solo hash completi) girano in CI (`scripts/default-skills.test.mjs`).
+
+- `zero1code-guida`: `guida.md` e `novita.md` sono anche la guida che l'app mostra nel pannello «Guida» (dalla copia
+  inclusa nell'installer). Aggiorna `novita.md` per una versione solo quando quella versione è pubblicata.
+- `controllo-app-desktop`: `approved.json` decide quali versioni di agent-desktop lo script installa. Cambiarlo qui
+  approva un binario per tutti gli utenti: va rivisto come una modifica di sicurezza.
+
 ## Controlli
 
 `node --test` e `node scripts/build-index.mjs --check` (offline: l'indice corrisponde a `skills/` e a `catalog.json`) girano
@@ -68,6 +82,6 @@ dell'installazione; rivedi ogni script prima di aggiungere la voce.
 
 ## Formato di `index.json` (schema 2)
 
-`{ schema: 2, skills: [{ name, description, license, category, author, hasScripts, files: [{ path, size, sha256, url? }], source?, repo?, ref?, path? }] }`.
+`{ schema: 2, skills: [{ name, description, license, category, author, groups, hasScripts, default?, files: [{ path, size, sha256, url? }], source?, repo?, ref?, path? }] }`.
 `url` è presente per i riferimenti ed è sempre un URL `raw.githubusercontent.com` con commit completo; l'app rifiuta
 qualsiasi altro host.
