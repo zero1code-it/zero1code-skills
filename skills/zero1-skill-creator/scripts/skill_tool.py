@@ -106,6 +106,8 @@ def advice(name: str, text: str) -> list:
         notes.append("the description is very short: add the situations or phrases that should trigger it")
     if body.count("\n") > 500:
         notes.append("the body is over 500 lines: move long reference material to files next to SKILL.md and link them")
+    if len(re.findall(r"\b(?:MUST|ALWAYS|NEVER)\b", body)) >= 3:
+        notes.append("many MUST/ALWAYS/NEVER in capitals: explain the reason behind each rule instead, the agent follows reasons better than shouting")
     if not re.search(r"^#{1,3} ", body, re.M):
         notes.append("add headings so the steps are easy to find")
     if re.search(r"(api[_-]?key|password|secret|token)\s*[:=]\s*\S{8,}", body, re.I):
