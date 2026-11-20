@@ -6,7 +6,7 @@
 
 # Novità di zero1code
 
-## 1.4.5
+## 1.4.6
 
 - **Benvenuto in zero1code Harness**: il tuo AI code-assistant.
 - **Per iniziare**: accedi con il tuo account, crea un'area di lavoro sulla cartella di un progetto e apri una nuova sessione.
