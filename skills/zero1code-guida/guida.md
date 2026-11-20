@@ -118,6 +118,7 @@ Le novità di ogni versione sono nel riquadro «Novità» del pannello «Guida»
 ## Problemi frequenti
 
 - **Non riesco a scrivere**: scegli un'area di lavoro, oppure accedi se compare «Accedi per scrivere.».
+- **L'area di lavoro non si crea o la cartella scelta non viene accettata**: spesso è l'«Accesso controllato alle cartelle» di Sicurezza di Windows, che protegge Documenti, Desktop e Immagini (anche sotto OneDrive) e blocca le app che non conosce. Scegli una cartella fuori da quelle, per esempio `C:\Users\<nome>\progetti`, oppure chiedi all'IT di consentire zero1code in Sicurezza di Windows → Protezione da virus e minacce → Protezione ransomware → «Consenti un'app tramite Accesso controllato alle cartelle».
 - **Non vedo un modello**: non è abilitato per il tuo account o non è configurato sul gateway; scrivi al supporto.
 - **«Compatta ora» è grigio**: aspetta che l'agente finisca e svuota la casella del messaggio.
 - **Il credito è finito**: attendi il rinnovo indicato nella riga dell'account o scrivi al supporto.
