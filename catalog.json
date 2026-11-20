@@ -28,7 +28,7 @@
     },
     {
       "repo": "anthropics/skills",
-      "ref": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
       "license": "Apache-2.0",
       "licenseFiles": [],
       "skills": [
@@ -91,7 +91,7 @@
     },
     {
       "repo": "coreyhaines31/marketingskills",
-      "ref": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "ref": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
       "license": "MIT",
       "licenseFiles": [
         "LICENSE"
@@ -125,7 +125,7 @@
     },
     {
       "repo": "emilkowalski/skills",
-      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "ref": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
       "license": "MIT",
       "licenseFiles": [
         "LICENSE"
@@ -198,7 +198,7 @@
     },
     {
       "repo": "iuliandita/skills",
-      "ref": "c256c72b334de481350e319a0db704688fbd463a",
+      "ref": "08994a745152d28e749975c34dd9ea7934ba0ceb",
       "license": "MIT",
       "licenseFiles": [
         "LICENSE"
@@ -215,7 +215,7 @@
     },
     {
       "repo": "langfuse/skills",
-      "ref": "4429a94b309980e1cee2f5960c271e123347cb42",
+      "ref": "f0bcb13088b490c04b3f4870bace17f6d57b199c",
       "license": "MIT",
       "licenseFiles": [
         "LICENSE"
@@ -250,7 +250,7 @@
     },
     {
       "repo": "obra/superpowers",
-      "ref": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "ref": "22f0b463e7a5e579904dd6211a520321035526f7",
       "license": "MIT",
       "licenseFiles": [
         "LICENSE"
@@ -274,7 +274,7 @@
     },
     {
       "repo": "pbakaus/impeccable",
-      "ref": "6743a347db6229848348024388033e830ae4af42",
+      "ref": "b49177d32788f2dc585c42831d845dacf1ebed2c",
       "license": "Apache-2.0",
       "licenseFiles": [
         "LICENSE",
@@ -293,7 +293,7 @@
     },
     {
       "repo": "Graphify-Labs/graphify",
-      "ref": "92741d162b2094ffc2fed58cfbd8ee823e9da62c",
+      "ref": "f51d46c63d6280a5906277b29b118dc2dd119991",
       "license": "Apache-2.0",
       "licenseFiles": [
         "LICENSE",
@@ -497,7 +497,7 @@
     },
     {
       "repo": "vercel-labs/agent-browser",
-      "ref": "04ba5264dade678062c3cdcce0f4f293e748249f",
+      "ref": "4605d82cfc20dbd051f57a631b5b7130e32141a5",
       "license": "Apache-2.0",
       "licenseFiles": [
         "LICENSE"
@@ -547,7 +547,7 @@
     },
     {
       "repo": "wshobson/agents",
-      "ref": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+      "ref": "42203085cfc5736204bf0f6d436dff7e1da0bf3f",
       "license": "MIT",
       "licenseFiles": [
         "LICENSE"
