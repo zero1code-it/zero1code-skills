@@ -27,12 +27,3 @@ test('the user guide never names the engine\'s origin (users see only zero1code)
 test('guida.md says which engine version it was reviewed for (runtime: in the front matter)', () => {
   assert.match(read('zero1code-guida', 'guida.md'), /^---\r?\n[\s\S]*?^runtime:\s*\S+\s*$/m)
 })
-
-test('controllo-app-desktop approves only full sha256 hashes', () => {
-  const approved = JSON.parse(read('controllo-app-desktop', 'approved.json'))
-  assert.ok(Array.isArray(approved) && approved.length > 0 && approved.length <= 3)
-  for (const entry of approved) {
-    assert.match(entry.version, /^v\d+\.\d+\.\d+$/)
-    for (const arch of ['x86_64', 'aarch64']) assert.match(entry.sha256[arch], /^[0-9a-f]{64}$/)
-  }
-})

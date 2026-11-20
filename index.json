@@ -32,6 +32,112 @@
       ]
     },
     {
+      "name": "agent-desktop",
+      "description": "Operate desktop applications on macOS, Windows and Linux through native accessibility trees, using the agent-desktop CLI. Use when an AI agent must see or act on a desktop GUI: click buttons, fill forms, read UI state, navigate menus, toggle checkboxes, scroll, drag, type text, press shortcuts, take screenshots, manage windows, use the clipboard, launch or close apps, read notifications. Triggers on: \"click button\", \"fill form\", \"open app\", \"read UI\", \"computer use\", \"operate desktop\", \"accessibility tree\", \"snapshot app\", \"type into field\", \"navigate menu\", \"toggle checkbox\", \"take screenshot\", \"desktop automation\", \"agent-desktop\", or any desktop GUI task on macOS, Windows or Linux.",
+      "license": "Apache-2.0",
+      "category": "",
+      "author": "vercel-labs",
+      "source": "github.com/vercel-labs/agent-desktop",
+      "repo": "vercel-labs/agent-desktop",
+      "ref": "e8934a5e95e1d212c74ead95cd3e4701c04eca31",
+      "path": "skills/agent-desktop",
+      "groups": [
+        "Strumenti e integrazioni"
+      ],
+      "hasScripts": false,
+      "files": [
+        {
+          "path": "LICENSE",
+          "size": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "url": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/e8934a5e95e1d212c74ead95cd3e4701c04eca31/LICENSE"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 10118,
+          "sha256": "f761e9aaddd00a6f39982dc5d65655f014cd5254bcf4301b30556e33a62c9584",
+          "url": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/e8934a5e95e1d212c74ead95cd3e4701c04eca31/skills/agent-desktop/SKILL.md"
+        },
+        {
+          "path": "references/commands-interaction.md",
+          "size": 22477,
+          "sha256": "5ef8a87be8aed9b0102adb3c332dcd50586c7fb28dc0f1490207ab9321673bf5",
+          "url": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/e8934a5e95e1d212c74ead95cd3e4701c04eca31/skills/agent-desktop/references/commands-interaction.md"
+        },
+        {
+          "path": "references/commands-observation.md",
+          "size": 12069,
+          "sha256": "9c31aec6f51dacfc14ff68dc04533a8dcf3ed5edb3f935d90e453f471894b936",
+          "url": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/e8934a5e95e1d212c74ead95cd3e4701c04eca31/skills/agent-desktop/references/commands-observation.md"
+        },
+        {
+          "path": "references/commands-system.md",
+          "size": 24921,
+          "sha256": "2ab356da4f7aedef479488831fb4dc10a2565c396f9f2204bc9c042f9401b538",
+          "url": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/e8934a5e95e1d212c74ead95cd3e4701c04eca31/skills/agent-desktop/references/commands-system.md"
+        },
+        {
+          "path": "references/workflows.md",
+          "size": 9078,
+          "sha256": "9c5a93361f992d73eff50e9ec99bb895424ababd57d3f6742ff71e73734c1af1",
+          "url": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/e8934a5e95e1d212c74ead95cd3e4701c04eca31/skills/agent-desktop/references/workflows.md"
+        }
+      ]
+    },
+    {
+      "name": "agent-desktop-windows",
+      "description": "Windows platform guide for the agent-desktop CLI. Lists per command group what works on Windows and what refuses, the first-contact gotchas (PowerShell ref quoting, minimized windows, headed-only input), and where to find shell surfaces, notifications, the cursor overlay, UIPI elevation, Chromium/Electron settle behavior and troubleshooting. Triggers on: \"windows desktop automation\", \"UIA tree\", \"automate Windows app\", \"agent-desktop on Windows\", \"elevated window input blocked\", \"E_ACCESSDENIED\", or any Windows GUI interaction task.",
+      "license": "Apache-2.0",
+      "category": "",
+      "author": "vercel-labs",
+      "source": "github.com/vercel-labs/agent-desktop",
+      "repo": "vercel-labs/agent-desktop",
+      "ref": "e8934a5e95e1d212c74ead95cd3e4701c04eca31",
+      "path": "skills/agent-desktop-windows",
+      "groups": [
+        "Strumenti e integrazioni"
+      ],
+      "hasScripts": false,
+      "files": [
+        {
+          "path": "LICENSE",
+          "size": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "url": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/e8934a5e95e1d212c74ead95cd3e4701c04eca31/LICENSE"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 8510,
+          "sha256": "babc8d3f0583afc3f41b3b84cc775d3be24010043b57966755fcf9bda8880073",
+          "url": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/e8934a5e95e1d212c74ead95cd3e4701c04eca31/skills/agent-desktop-windows/SKILL.md"
+        },
+        {
+          "path": "references/chromium-and-electron.md",
+          "size": 3281,
+          "sha256": "db7a62782aa5717f0c70269faf26c1193a4fdfa2eee6c46f915bb3b86f1e3ea4",
+          "url": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/e8934a5e95e1d212c74ead95cd3e4701c04eca31/skills/agent-desktop-windows/references/chromium-and-electron.md"
+        },
+        {
+          "path": "references/permissions-and-elevation.md",
+          "size": 5402,
+          "sha256": "1ae422d682a4ed48025b5f17c2ce8a37e830b8d86b0a18f3f4d725fc74ada733",
+          "url": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/e8934a5e95e1d212c74ead95cd3e4701c04eca31/skills/agent-desktop-windows/references/permissions-and-elevation.md"
+        },
+        {
+          "path": "references/shell-and-overlay.md",
+          "size": 9146,
+          "sha256": "5ed688610f3ed9e9c20a878b20507a11f59bd695df56be0b17534ff9b539c778",
+          "url": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/e8934a5e95e1d212c74ead95cd3e4701c04eca31/skills/agent-desktop-windows/references/shell-and-overlay.md"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "size": 10653,
+          "sha256": "8f6115c920495f84f7ef866750d50e789c3a9efac84ed7b4c337f1e116ecc923",
+          "url": "https://raw.githubusercontent.com/vercel-labs/agent-desktop/e8934a5e95e1d212c74ead95cd3e4701c04eca31/skills/agent-desktop-windows/references/troubleshooting.md"
+        }
+      ]
+    },
+    {
       "name": "brainstorming",
       "description": "You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation).",
       "license": "MIT",
@@ -146,36 +252,6 @@
           "size": 4678,
           "sha256": "415d43518f2b1a9498c15a445d4657117b129ee5e81b19454ce348439cc6672b",
           "url": "https://raw.githubusercontent.com/JuliusBrussee/caveman/9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4/skills/caveman/SKILL.md"
-        }
-      ]
-    },
-    {
-      "name": "controllo-app-desktop",
-      "description": "Vede e usa le applicazioni del desktop di Windows (finestre, pulsanti, menu, campi, installer, finestre di dialogo, Esplora file, notifiche) leggendo l'albero di accessibilità, senza screenshot. Usala quando l'utente chiede di aprire, cliccare, compilare, leggere o controllare qualcosa in un programma installato sul PC, di automatizzare un'app desktop o di verificare un'interfaccia nativa. Non usarla per siti web né per file e comandi che bastano dal terminale.",
-      "license": "MIT",
-      "category": "zero1code",
-      "author": "zero1code",
-      "groups": [
-        "zero1code skill",
-        "Agenti e produttività"
-      ],
-      "hasScripts": true,
-      "default": true,
-      "files": [
-        {
-          "path": "SKILL.md",
-          "size": 5651,
-          "sha256": "cca16938b77c4333257aba686f82358be92d0ec2b0c76f0635e20901a40d4b42"
-        },
-        {
-          "path": "approved.json",
-          "size": 259,
-          "sha256": "ba47ef2e0429578abf3b28ffab12859080fc294b226cfb327304515bb61c43e5"
-        },
-        {
-          "path": "scripts/agent-desktop.ps1",
-          "size": 16343,
-          "sha256": "e9ba091f28057341df4dec7e68b472144a8d10224e701913e75ee07e22f3f322"
         }
       ]
     },

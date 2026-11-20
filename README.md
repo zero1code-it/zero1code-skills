@@ -66,13 +66,12 @@ Le skill elencate in `defaultSkills` (`catalog.json`) sono ospitate qui e l'app 
 segna con `default: true`. La build dell'app le prende da qui a un commit fissato (file `default-skills.lock.json` del
 repo dell'app) e le include nell'installer, così ci sono anche al primo avvio senza rete; a ogni avvio l'app le porta
 alla versione del catalogo, ma solo se l'utente non le ha modificate. Un push su `main` arriva quindi a tutti gli utenti
-senza un rilascio dell'app: i controlli che prima si facevano al rilascio (la guida non nomina l'origine del motore,
-`approved.json` contiene solo hash completi) girano in CI (`scripts/default-skills.test.mjs`).
+senza un rilascio dell'app (tranne per le predefinite con script, che cambiano solo col rilascio): i controlli che prima
+si facevano al rilascio (la guida non nomina l'origine del motore) girano in CI (`scripts/default-skills.test.mjs`).
+Aggiungere o togliere una predefinita richiede un rilascio dell'app.
 
 - `zero1code-guida`: `guida.md` e `novita.md` sono anche la guida che l'app mostra nel pannello «Guida» (dalla copia
   inclusa nell'installer). Aggiorna `novita.md` per una versione solo quando quella versione è pubblicata.
-- `controllo-app-desktop`: `approved.json` decide quali versioni di agent-desktop lo script installa. Cambiarlo qui
-  approva un binario per tutti gli utenti: va rivisto come una modifica di sicurezza.
 
 ## Controlli
 
