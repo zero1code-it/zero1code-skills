@@ -2534,7 +2534,7 @@
     },
     {
       "name": "zero1-docx",
-      "description": "Create, read and edit Word documents (.docx): reports, letters, contracts, memos, offers, minutes, templates. Use when the user asks for a Word file, \"documento Word\", \"relazione\", \"lettera\", \"contratto\", \"verbale\", or hands over a .docx to review, fill in, correct or annotate (comments, tracked changes). Covers headings and styles, tables, images, headers/footers with page numbers, table of contents, hyperlinks, A4 and landscape pages. Not for PDFs, Google Docs, spreadsheets or slides.",
+      "description": "(Beta) Create, read and edit Word documents (.docx): reports, letters, contracts, memos, offers, minutes, templates. Use when the user asks for a Word file, \"documento Word\", \"relazione\", \"lettera\", \"contratto\", \"verbale\", or hands over a .docx to review, fill in, correct or annotate (comments, tracked changes). Covers headings and styles, tables, images, headers/footers with page numbers, table of contents, hyperlinks, A4 and landscape pages. Not for PDFs, Google Docs, spreadsheets or slides.",
       "license": "MIT",
       "category": "Office",
       "author": "zero1code",
@@ -2551,8 +2551,8 @@
         },
         {
           "path": "SKILL.md",
-          "size": 8567,
-          "sha256": "bb38904aa9c8ae4efda17f1f29fac14a89475c7b510393bce340acb7e48c4622"
+          "size": 8581,
+          "sha256": "d3af44d6dfe0e8f9f9879508ecd94f7bd6a46a3dcd764cdd938ec54db3ac1178"
         },
         {
           "path": "scripts/describe.py",
@@ -2578,7 +2578,7 @@
     },
     {
       "name": "zero1-pptx",
-      "description": "Create, read and edit PowerPoint presentations (.pptx, .potx): sales decks, project updates, training, pitch, reports turned into slides, templates to fill in. Use when the user asks for a presentation, \"slide\", \"presentazione\", \"deck\", \"PowerPoint\", or hands over a .pptx to modify, translate, restyle, update numbers or fill from a template. Builds 16:9 slides with real titles, native editable charts and tables, fitted pictures with alt text, and speaker notes. Not for Word, Excel, PDF or Google Slides links.",
+      "description": "(Beta) Create, read and edit PowerPoint presentations (.pptx, .potx): sales decks, project updates, training, pitch, reports turned into slides, templates to fill in. Use when the user asks for a presentation, \"slide\", \"presentazione\", \"deck\", \"PowerPoint\", or hands over a .pptx to modify, translate, restyle, update numbers or fill from a template. Builds 16:9 slides with real titles, native editable charts and tables, fitted pictures with alt text, and speaker notes. Not for Word, Excel, PDF or Google Slides links.",
       "license": "MIT",
       "category": "Office",
       "author": "zero1code",
@@ -2595,8 +2595,8 @@
         },
         {
           "path": "SKILL.md",
-          "size": 7483,
-          "sha256": "4d3bda6ee08b4937c1bfa955e925bda91229a64b4d6ef4b116572e3aa20b0db5"
+          "size": 7497,
+          "sha256": "662752326aabe267f547cbe1d9513a07893e69df3be045a0fcbab8e17039a476"
         },
         {
           "path": "scripts/describe.py",
@@ -2686,7 +2686,7 @@
     },
     {
       "name": "zero1-skill-creator",
-      "description": "Guide the user through creating, improving or checking an agent skill (a SKILL.md with instructions the agent loads on demand) and save it where zero1code reads it. Use when the user says \"crea una skill\", \"voglio una skill che...\", \"trasforma questa procedura in una skill\", \"migliora/correggi la mia skill\", or asks how to teach the agent a repeatable task, a house style or a company procedure.",
+      "description": "(Beta) Guide the user through creating, improving or checking an agent skill (a SKILL.md with instructions the agent loads on demand) and save it where zero1code reads it. Use when the user says \"crea una skill\", \"voglio una skill che...\", \"trasforma questa procedura in una skill\", \"migliora/correggi la mia skill\", or asks how to teach the agent a repeatable task, a house style or a company procedure.",
       "license": "MIT",
       "category": "Skill",
       "author": "zero1code",
@@ -2703,8 +2703,8 @@
         },
         {
           "path": "SKILL.md",
-          "size": 6761,
-          "sha256": "8713011dddb3a8bee3367ed9194f67fb40ae8ae7ab0cf4dae78fd383756d1233"
+          "size": 6775,
+          "sha256": "2c598ca858fced9158a107853ac5e61cc1ffc511e2646dac6125fe25803660cd"
         },
         {
           "path": "scripts/skill_tool.py",
@@ -2715,7 +2715,7 @@
     },
     {
       "name": "zero1-xlsx",
-      "description": "Create, read, analyse and edit Excel workbooks (.xlsx, .xlsm, .csv): budgets, price lists, reports, trackers, financial models, data cleanup, tables with formulas, charts, validation and conditional formatting. Use when the user asks for an Excel/spreadsheet file, \"foglio Excel\", \"file xlsx\", \"budget\", \"preventivo\", \"report in Excel\", or gives a spreadsheet to read, fix, extend or analyse. Formulas stay live and are checked for errors. Not for Word or PowerPoint files, nor for Google Sheets links.",
+      "description": "(Beta) Create, read, analyse and edit Excel workbooks (.xlsx, .xlsm, .csv): budgets, price lists, reports, trackers, financial models, data cleanup, tables with formulas, charts, validation and conditional formatting. Use when the user asks for an Excel/spreadsheet file, \"foglio Excel\", \"file xlsx\", \"budget\", \"preventivo\", \"report in Excel\", or gives a spreadsheet to read, fix, extend or analyse. Formulas stay live and are checked for errors. Not for Word or PowerPoint files, nor for Google Sheets links.",
       "license": "MIT",
       "category": "Office",
       "author": "zero1code",
@@ -2732,8 +2732,8 @@
         },
         {
           "path": "SKILL.md",
-          "size": 8327,
-          "sha256": "79e828006da7637243258b40e14152b8c9ed44053c6c0dcd096113e9b60536df"
+          "size": 8341,
+          "sha256": "5361b28e44592a8b6565faa8826e5eb69d973efbff6dd63aff37f856060e8eb9"
         },
         {
           "path": "scripts/describe.py",

@@ -1,7 +1,7 @@
 ---
 name: zero1-pptx
 description: >
-  Create, read and edit PowerPoint presentations (.pptx, .potx): sales decks, project updates, training, pitch,
+  (Beta) Create, read and edit PowerPoint presentations (.pptx, .potx): sales decks, project updates, training, pitch,
   reports turned into slides, templates to fill in. Use when the user asks for a presentation, "slide",
   "presentazione", "deck", "PowerPoint", or hands over a .pptx to modify, translate, restyle, update numbers or fill
   from a template. Builds 16:9 slides with real titles, native editable charts and tables, fitted pictures with
@@ -12,7 +12,7 @@ metadata:
   author: zero1code
 ---
 
-# PowerPoint decks with python-pptx
+# PowerPoint decks with python-pptx (beta)
 
 Reply in the user's language and write the slides in the language they asked for.
 

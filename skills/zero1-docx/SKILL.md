@@ -1,7 +1,7 @@
 ---
 name: zero1-docx
 description: >
-  Create, read and edit Word documents (.docx): reports, letters, contracts, memos, offers, minutes, templates.
+  (Beta) Create, read and edit Word documents (.docx): reports, letters, contracts, memos, offers, minutes, templates.
   Use when the user asks for a Word file, "documento Word", "relazione", "lettera", "contratto", "verbale", or hands
   over a .docx to review, fill in, correct or annotate (comments, tracked changes). Covers headings and styles,
   tables, images, headers/footers with page numbers, table of contents, hyperlinks, A4 and landscape pages.
@@ -12,7 +12,7 @@ metadata:
   author: zero1code
 ---
 
-# Word documents (.docx) with python-docx
+# Word documents (.docx) with python-docx (beta)
 
 Work in Python with `python-docx` (>= 1.2). Reply in the user's language; write the document in the language they
 asked for (Italian by default for Italian users: A4, `it-IT`, decimal comma in numbers shown to people).

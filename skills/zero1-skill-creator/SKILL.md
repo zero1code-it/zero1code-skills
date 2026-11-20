@@ -1,7 +1,7 @@
 ---
 name: zero1-skill-creator
 description: >
-  Guide the user through creating, improving or checking an agent skill (a SKILL.md with instructions the agent loads
+  (Beta) Guide the user through creating, improving or checking an agent skill (a SKILL.md with instructions the agent loads
   on demand) and save it where zero1code reads it. Use when the user says "crea una skill", "voglio una skill che...",
   "trasforma questa procedura in una skill", "migliora/correggi la mia skill", or asks how to teach the agent a
   repeatable task, a house style or a company procedure.
@@ -11,7 +11,7 @@ metadata:
   author: zero1code
 ---
 
-# Creating a skill
+# Creating a skill (beta)
 
 A skill is a folder with a `SKILL.md`: a short header (`name`, `description`) and the instructions. The agent always
 sees the header of every skill, and loads the body only when a request matches the description. So: the description
