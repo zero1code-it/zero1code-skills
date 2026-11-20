@@ -1,7 +1,7 @@
 ---
 name: zero1-xlsx
 description: >
-  Create, read, analyse and edit Excel workbooks (.xlsx, .xlsm, .csv): budgets, price lists, reports, trackers,
+  (Beta) Create, read, analyse and edit Excel workbooks (.xlsx, .xlsm, .csv): budgets, price lists, reports, trackers,
   financial models, data cleanup, tables with formulas, charts, validation and conditional formatting.
   Use when the user asks for an Excel/spreadsheet file, "foglio Excel", "file xlsx", "budget", "preventivo",
   "report in Excel", or gives a spreadsheet to read, fix, extend or analyse. Formulas stay live and are checked
@@ -12,7 +12,7 @@ metadata:
   author: zero1code
 ---
 
-# Excel workbooks with openpyxl (and pandas for analysis)
+# Excel workbooks with openpyxl (and pandas for analysis) (beta)
 
 Reply in the user's language. Excel shows numbers and dates with the reader's regional settings, so Italian users see
 `1.234,50`; the file itself always stores US-style formats and English function names.
