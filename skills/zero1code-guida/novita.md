@@ -8,7 +8,7 @@
 
 ## 1.4.5
 
-- **Benvenuto in zero1code Harness**: il tuo AI code-assistant. Lavora sui file dei tuoi progetti, esegue comandi e cerca sul web.
+- **Benvenuto in zero1code Harness**: il tuo AI code-assistant.
 - **Per iniziare**: accedi con il tuo account, crea un'area di lavoro sulla cartella di un progetto e apri una nuova sessione.
 - **Guida e assistente**: nella sezione Guida trovi la guida completa e un assistente dedicato che risponde alle domande sull'uso dell'app.
 - **Skill**: dal catalogo installi procedure pronte per l'agente. Quelle installate si aggiornano da sole, salvo quelle che hai modificato.
