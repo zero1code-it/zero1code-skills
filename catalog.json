@@ -49,13 +49,6 @@
           ]
         },
         {
-          "name": "skill-creator",
-          "path": "skills/skill-creator",
-          "groups": [
-            "Agenti e produttività"
-          ]
-        },
-        {
           "name": "web-artifacts-builder",
           "path": "skills/web-artifacts-builder",
           "groups": [
