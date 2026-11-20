@@ -6,6 +6,11 @@
 
 # Novità di zero1code
 
+## 1.4.5
+
+- **Skill sempre aggiornate**: le skill che installi dal catalogo si aggiornano da sole all'apertura dell'app; quelle che hai modificato restano come le hai lasciate.
+- **Guida più fresca**: la skill «zero1code-guida» riceve le correzioni anche tra una versione e l'altra dell'app.
+
 ## 1.4.4
 
 - **Scelta del modello più pulita**: «Seleziona modello» mostra direttamente l'elenco dei modelli.
