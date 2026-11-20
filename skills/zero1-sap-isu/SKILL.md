@@ -1,7 +1,7 @@
 ---
 name: zero1-sap-isu
 description: >
-  Conoscenza di SAP IS-U standard (SAP for Utilities, ECC 6.0 e SAP S/4HANA Utilities) per le quattro aree
+  (Beta) Conoscenza di SAP IS-U standard (SAP for Utilities, ECC 6.0 e SAP S/4HANA Utilities) per le quattro aree
   Master data, Meter reading (letture), Billing (fatturazione, tariffe) e Credit / FI-CA (contract accounting,
   solleciti, pagamenti). Usala quando l'utente chiede di oggetti, tabelle, transazioni, BAPI, exit o processi IS-U:
   partner commerciale, conto contrattuale, contratto, impianto, premise, apparecchi, letture, subentro/cessazione
@@ -14,7 +14,7 @@ metadata:
   author: zero1code
 ---
 
-# SAP IS-U standard
+# SAP IS-U standard (beta)
 
 Rispondi a domande su SAP IS-U standard e aiuta ad analizzare dati, processi ed errori, con i nomi SAP esatti
 (oggetti, tabelle, transazioni) e indicando quanto ogni informazione è sicura.
