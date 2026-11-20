@@ -9,7 +9,7 @@
       "author": "vercel-labs",
       "source": "github.com/vercel-labs/agent-browser",
       "repo": "vercel-labs/agent-browser",
-      "ref": "04ba5264dade678062c3cdcce0f4f293e748249f",
+      "ref": "4605d82cfc20dbd051f57a631b5b7130e32141a5",
       "path": "skills/agent-browser",
       "groups": [
         "Strumenti e integrazioni",
@@ -21,13 +21,13 @@
           "path": "LICENSE",
           "size": 10931,
           "sha256": "014bb31e83d5c2e76aea1cc6e82217346ab41362f32cb355ad0f5c10aa0aeaff",
-          "url": "https://raw.githubusercontent.com/vercel-labs/agent-browser/04ba5264dade678062c3cdcce0f4f293e748249f/LICENSE"
+          "url": "https://raw.githubusercontent.com/vercel-labs/agent-browser/4605d82cfc20dbd051f57a631b5b7130e32141a5/LICENSE"
         },
         {
           "path": "SKILL.md",
-          "size": 3457,
-          "sha256": "3a7520e64de2dfaa516b6721c001e84e06e3c06a187b82af029ae721540ebfac",
-          "url": "https://raw.githubusercontent.com/vercel-labs/agent-browser/04ba5264dade678062c3cdcce0f4f293e748249f/skills/agent-browser/SKILL.md"
+          "size": 3306,
+          "sha256": "7d46deeb0101e84f8d70fd2e5cd18e3b6017edfb973607ff23e95e22c92ce73e",
+          "url": "https://raw.githubusercontent.com/vercel-labs/agent-browser/4605d82cfc20dbd051f57a631b5b7130e32141a5/skills/agent-browser/SKILL.md"
         }
       ]
     },
@@ -39,7 +39,7 @@
       "author": "emilkowalski",
       "source": "github.com/emilkowalski/skills",
       "repo": "emilkowalski/skills",
-      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "ref": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
       "path": "skills/ask-sonner",
       "groups": [
         "Sviluppo web"
@@ -48,21 +48,21 @@
       "files": [
         {
           "path": "API.md",
-          "size": 4545,
-          "sha256": "4bb06f482c5757529e3d7a672a30fbeed42d24919a63e2571384a9ce1549aa7f",
-          "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/ask-sonner/API.md"
+          "size": 4663,
+          "sha256": "0e0c44a4a28c5f2ceaefc5fb215bf75febe29166066dd502fc7a47ef390c0593",
+          "url": "https://raw.githubusercontent.com/emilkowalski/skills/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/ask-sonner/API.md"
         },
         {
           "path": "LICENSE",
           "size": 1070,
           "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
-          "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"
+          "url": "https://raw.githubusercontent.com/emilkowalski/skills/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/LICENSE"
         },
         {
           "path": "SKILL.md",
-          "size": 7233,
-          "sha256": "39f3ee185b3aa2cf70a689052ff078953ce7ba5915ed7a9391d232e9d4dcf57f",
-          "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/ask-sonner/SKILL.md"
+          "size": 7326,
+          "sha256": "4350ebfef0437875de80cc989059900b21ad621ea09f4709cc2917e7dee82d46",
+          "url": "https://raw.githubusercontent.com/emilkowalski/skills/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/ask-sonner/SKILL.md"
         }
       ]
     },
@@ -74,7 +74,7 @@
       "author": "obra",
       "source": "github.com/obra/superpowers",
       "repo": "obra/superpowers",
-      "ref": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "ref": "22f0b463e7a5e579904dd6211a520321035526f7",
       "path": "skills/brainstorming",
       "groups": [
         "Agenti e produttività"
@@ -85,55 +85,55 @@
           "path": "LICENSE",
           "size": 1070,
           "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/LICENSE"
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/LICENSE"
         },
         {
           "path": "SKILL.md",
-          "size": 13602,
-          "sha256": "61a7ef918652108c76a3fd01e02dd92d39996c6b46d4cb2819cbd03f6c45e46a",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/brainstorming/SKILL.md"
+          "size": 15190,
+          "sha256": "2c9ca71f94886f9ca9f4aef055f7cafb3e1a9bdf3aeebf8f4cb547c69405d207",
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/skills/brainstorming/SKILL.md"
         },
         {
           "path": "builder-check-prompt.md",
           "size": 881,
           "sha256": "36d51a4723d6f0a3ce5811a0ea3b3a8424f07533947e1355f5d8cb8cce40c55e",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/brainstorming/builder-check-prompt.md"
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/skills/brainstorming/builder-check-prompt.md"
         },
         {
           "path": "scripts/frame-template.html",
           "size": 8094,
           "sha256": "6a8a4e58bd6a44b904e2e3c57de774481d909204597e1498de53f1b2fecc4c4e",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/brainstorming/scripts/frame-template.html"
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/skills/brainstorming/scripts/frame-template.html"
         },
         {
           "path": "scripts/helper.js",
           "size": 5615,
           "sha256": "43c6d69954a46ec34a2a262bcc62a9a7e83e839c739f199cb72646d397c686e3",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/brainstorming/scripts/helper.js"
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/skills/brainstorming/scripts/helper.js"
         },
         {
           "path": "scripts/server.cjs",
           "size": 25699,
           "sha256": "763abf96510e0b892a1141397b31aa82ef900cf87ed34dde94bc8782baf4a7ca",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/brainstorming/scripts/server.cjs"
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/skills/brainstorming/scripts/server.cjs"
         },
         {
           "path": "scripts/start-server.sh",
-          "size": 6908,
-          "sha256": "a4e5ae84275bcaacd2f84345afeabe59cf7b00ba080e123da7cc1fb226f12847",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/brainstorming/scripts/start-server.sh"
+          "size": 7315,
+          "sha256": "314dd68dc00e8dd94c7491aca8a5f004c7fddffc161e2b07482f29f48d13659a",
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/skills/brainstorming/scripts/start-server.sh"
         },
         {
           "path": "scripts/stop-server.sh",
           "size": 3263,
           "sha256": "0b5ccbbd57f62d3ed88993f7940b5ee0e5c0fc9b21c550c623da4f6292e47daf",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/brainstorming/scripts/stop-server.sh"
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/skills/brainstorming/scripts/stop-server.sh"
         },
         {
           "path": "visual-companion.md",
           "size": 13413,
           "sha256": "6ffcb038b53254bd31debaa15e12dcd4ff24bd63d690e0b644ac6396701cf2e2",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/brainstorming/visual-companion.md"
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/skills/brainstorming/visual-companion.md"
         }
       ]
     },
@@ -145,7 +145,7 @@
       "author": "emilkowalski",
       "source": "github.com/emilkowalski/skills",
       "repo": "emilkowalski/skills",
-      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "ref": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
       "path": "skills/break-ui",
       "groups": [
         "Sviluppo web",
@@ -155,21 +155,21 @@
       "files": [
         {
           "path": "CATALOG.md",
-          "size": 8268,
-          "sha256": "7358efcc6bb48e35187be1c064cf60022dcb18c72c18fab58b606dfc5f421f15",
-          "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/break-ui/CATALOG.md"
+          "size": 8215,
+          "sha256": "80522dcc81039bf317bce5adcb7b499e9d9da3c98952abb4dfb34ba6c1c32360",
+          "url": "https://raw.githubusercontent.com/emilkowalski/skills/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/break-ui/CATALOG.md"
         },
         {
           "path": "LICENSE",
           "size": 1070,
           "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
-          "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"
+          "url": "https://raw.githubusercontent.com/emilkowalski/skills/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/LICENSE"
         },
         {
           "path": "SKILL.md",
-          "size": 14380,
-          "sha256": "e7eec1d70ac56a04255e9c0dbe98084ea3d544cc04aaad34f32c95d6fa9dff5e",
-          "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/break-ui/SKILL.md"
+          "size": 14660,
+          "sha256": "fb126d176f3b6bf7dfe71f2ae6620ab3dd81e6282c672a1801720055addfce18",
+          "url": "https://raw.githubusercontent.com/emilkowalski/skills/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/break-ui/SKILL.md"
         }
       ]
     },
@@ -269,13 +269,13 @@
     },
     {
       "name": "debian-ubuntu",
-      "description": "Administer Debian, Ubuntu, Mint, and Pop!_OS: apt, dpkg, upgrades, boot, drivers, and desktop issues.",
+      "description": "Debian, Ubuntu, Mint, Pop!_OS, Kali admin: apt/dpkg errors, pinning, held packages, repo keys, snaps, unattended-upgrades, release upgrades, PPAs, kernels, systemd.",
       "license": "MIT",
       "category": "",
       "author": "iuliandita",
       "source": "github.com/iuliandita/skills",
       "repo": "iuliandita/skills",
-      "ref": "c256c72b334de481350e319a0db704688fbd463a",
+      "ref": "08994a745152d28e749975c34dd9ea7934ba0ceb",
       "path": "skills/debian-ubuntu",
       "groups": [
         "DevOps e sicurezza"
@@ -286,103 +286,121 @@
           "path": "LICENSE",
           "size": 1068,
           "sha256": "e572dd93a29151c0304a8875ae8035fa6bd9a01252071949091563bc30603805",
-          "url": "https://raw.githubusercontent.com/iuliandita/skills/c256c72b334de481350e319a0db704688fbd463a/LICENSE"
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/LICENSE"
         },
         {
           "path": "SKILL.md",
-          "size": 25394,
-          "sha256": "cad3a803922449db0a54d7a37576bca21fd617d334239bab75cba3b376c98ef3",
-          "url": "https://raw.githubusercontent.com/iuliandita/skills/c256c72b334de481350e319a0db704688fbd463a/skills/debian-ubuntu/SKILL.md"
+          "size": 22362,
+          "sha256": "309a265ae7ce1d6db4120ed6b7dc80b52bc4789e3cf02c257178105a6457ba9e",
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/SKILL.md"
         },
         {
           "path": "references/agent-hygiene.md",
           "size": 1145,
           "sha256": "59171d1de03c18c3e01d04b1248e2a74f8447597ff506c6f08c4a4133488fe75",
-          "url": "https://raw.githubusercontent.com/iuliandita/skills/c256c72b334de481350e319a0db704688fbd463a/skills/debian-ubuntu/references/agent-hygiene.md"
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/agent-hygiene.md"
         },
         {
           "path": "references/base-linux-and-cli.md",
           "size": 320,
           "sha256": "2c29d5d5a2e81e23014978cec78c82dbaff38b92d1debace4ef26c0151dbd55b",
-          "url": "https://raw.githubusercontent.com/iuliandita/skills/c256c72b334de481350e319a0db704688fbd463a/skills/debian-ubuntu/references/base-linux-and-cli.md"
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/base-linux-and-cli.md"
         },
         {
           "path": "references/boot-kernel-and-recovery.md",
           "size": 5102,
           "sha256": "be127b34c7767a771972a9fde4acb2ecc4777ad023beae9712cc32e3b7e38334",
-          "url": "https://raw.githubusercontent.com/iuliandita/skills/c256c72b334de481350e319a0db704688fbd463a/skills/debian-ubuntu/references/boot-kernel-and-recovery.md"
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/boot-kernel-and-recovery.md"
         },
         {
           "path": "references/capture-and-sharing.md",
           "size": 4072,
           "sha256": "bb784aa0794b033f1e9fb6f1a070bf9e46ab0e0758f80ce4ab9c8282f96edb69",
-          "url": "https://raw.githubusercontent.com/iuliandita/skills/c256c72b334de481350e319a0db704688fbd463a/skills/debian-ubuntu/references/capture-and-sharing.md"
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/capture-and-sharing.md"
         },
         {
           "path": "references/derivatives-and-hwe.md",
-          "size": 8097,
-          "sha256": "c9eb5d0fbd05c7ad41b90cf50357aa92527c090e6e0230eac329d9d5e2b0dc39",
-          "url": "https://raw.githubusercontent.com/iuliandita/skills/c256c72b334de481350e319a0db704688fbd463a/skills/debian-ubuntu/references/derivatives-and-hwe.md"
+          "size": 8096,
+          "sha256": "6bfcbbd1219c6195ef40a3c8e78ba2f7280e01a917eac0aa900cecd9e5be7f7f",
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/derivatives-and-hwe.md"
         },
         {
           "path": "references/desktop-audio-and-bluetooth.md",
           "size": 1641,
           "sha256": "7bf8d5e4704ca4cd244bce4226cff4125c2f8985b168a3f34e71bd698c5ea564",
-          "url": "https://raw.githubusercontent.com/iuliandita/skills/c256c72b334de481350e319a0db704688fbd463a/skills/debian-ubuntu/references/desktop-audio-and-bluetooth.md"
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/desktop-audio-and-bluetooth.md"
         },
         {
           "path": "references/gotchas-and-special-situations.md",
           "size": 377,
           "sha256": "dd1486380966ef13999f65f5a289a782f3309f66882e3e244e46148c6360fe08",
-          "url": "https://raw.githubusercontent.com/iuliandita/skills/c256c72b334de481350e319a0db704688fbd463a/skills/debian-ubuntu/references/gotchas-and-special-situations.md"
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/gotchas-and-special-situations.md"
         },
         {
           "path": "references/graphics-and-gaming.md",
           "size": 4070,
           "sha256": "a58f256dc09133abd7d0ed94685cbebb4e5d2910a8a6b3ada25d330ec3e3efb6",
-          "url": "https://raw.githubusercontent.com/iuliandita/skills/c256c72b334de481350e319a0db704688fbd463a/skills/debian-ubuntu/references/graphics-and-gaming.md"
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/graphics-and-gaming.md"
+        },
+        {
+          "path": "references/kali.md",
+          "size": 2549,
+          "sha256": "13e523b9ffbde8eae2e3231a670840c962504410206a3bb282779db960aca469",
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/kali.md"
         },
         {
           "path": "references/output-contract.md",
-          "size": 2840,
-          "sha256": "44262622a3214a2529e7b53ca877384132ae04640ab2b94520d9dd30feb45e6b",
-          "url": "https://raw.githubusercontent.com/iuliandita/skills/c256c72b334de481350e319a0db704688fbd463a/skills/debian-ubuntu/references/output-contract.md"
+          "size": 3107,
+          "sha256": "36394fe0b5d618c05e68c65884f8340337905c32c56cee091e456ed099708db3",
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/output-contract.md"
         },
         {
           "path": "references/packages-and-repos.md",
-          "size": 610,
-          "sha256": "a0c43099111063e7cf510afa75935b254e2bdbb90beec5bad6d4f6e89c47c29d",
-          "url": "https://raw.githubusercontent.com/iuliandita/skills/c256c72b334de481350e319a0db704688fbd463a/skills/debian-ubuntu/references/packages-and-repos.md"
+          "size": 7766,
+          "sha256": "fd69d7057772e4682b08615a5cccf97ea361c1135ad5a12421730154f1603df3",
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/packages-and-repos.md"
+        },
+        {
+          "path": "references/quick-triage.md",
+          "size": 1741,
+          "sha256": "f8994077ed7c7efc38731d4d70747fb1ca4862f857b2956137e334ae538f3734",
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/quick-triage.md"
         },
         {
           "path": "references/remote-gaming-input-and-tooling.md",
           "size": 422,
           "sha256": "9564631ece2735a72c2238b8667500900fb68062bc7c83419d2b0776e5740801",
-          "url": "https://raw.githubusercontent.com/iuliandita/skills/c256c72b334de481350e319a0db704688fbd463a/skills/debian-ubuntu/references/remote-gaming-input-and-tooling.md"
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/remote-gaming-input-and-tooling.md"
         },
         {
           "path": "references/security-and-updates.md",
-          "size": 410,
-          "sha256": "38aa1cedd2d47e15ff7bad1dbc042a8aa9c189419dcfb2d4ef46f65fb49e63a8",
-          "url": "https://raw.githubusercontent.com/iuliandita/skills/c256c72b334de481350e319a0db704688fbd463a/skills/debian-ubuntu/references/security-and-updates.md"
+          "size": 6401,
+          "sha256": "ac605c00e5ffb21b7dedf494f708b62b231ee17217fa393251688d340e95137b",
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/security-and-updates.md"
         },
         {
           "path": "references/session-display-and-mobile.md",
           "size": 451,
           "sha256": "fff296090aa9384e5acfa5dab5687dba19a0c0131196158db5dbd04ddbca9abf",
-          "url": "https://raw.githubusercontent.com/iuliandita/skills/c256c72b334de481350e319a0db704688fbd463a/skills/debian-ubuntu/references/session-display-and-mobile.md"
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/session-display-and-mobile.md"
         },
         {
           "path": "references/storage-and-rollback.md",
           "size": 5223,
           "sha256": "dab6b55b0bc6283887f5a3fe009806731e5ca7c461b81f94089f880925f6a697",
-          "url": "https://raw.githubusercontent.com/iuliandita/skills/c256c72b334de481350e319a0db704688fbd463a/skills/debian-ubuntu/references/storage-and-rollback.md"
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/storage-and-rollback.md"
         },
         {
           "path": "references/systemd-and-journal.md",
           "size": 3570,
           "sha256": "80f5b90d28f10e48b5ca8144d2dc2e2f3df6b4a5cb7f1609fa2f4d8b804d006a",
-          "url": "https://raw.githubusercontent.com/iuliandita/skills/c256c72b334de481350e319a0db704688fbd463a/skills/debian-ubuntu/references/systemd-and-journal.md"
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/systemd-and-journal.md"
+        },
+        {
+          "path": "references/versions.md",
+          "size": 2739,
+          "sha256": "1699647818f22f764827718591d27e28f941c0489a2666234df09345edf3978c",
+          "url": "https://raw.githubusercontent.com/iuliandita/skills/08994a745152d28e749975c34dd9ea7934ba0ceb/skills/debian-ubuntu/references/versions.md"
         }
       ]
     },
@@ -464,7 +482,7 @@
       "author": "anthropics",
       "source": "github.com/anthropics/skills",
       "repo": "anthropics/skills",
-      "ref": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
       "path": "skills/frontend-design",
       "groups": [
         "Sviluppo web",
@@ -476,13 +494,13 @@
           "path": "LICENSE.txt",
           "size": 10174,
           "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design/LICENSE.txt"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/frontend-design/LICENSE.txt"
         },
         {
           "path": "SKILL.md",
           "size": 9390,
           "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design/SKILL.md"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/frontend-design/SKILL.md"
         }
       ]
     },
@@ -494,7 +512,7 @@
       "author": "Graphify-Labs",
       "source": "github.com/Graphify-Labs/graphify",
       "repo": "Graphify-Labs/graphify",
-      "ref": "92741d162b2094ffc2fed58cfbd8ee823e9da62c",
+      "ref": "f51d46c63d6280a5906277b29b118dc2dd119991",
       "path": "graphify",
       "groups": [
         "AI e conoscenza",
@@ -506,25 +524,25 @@
           "path": "LICENSE",
           "size": 11358,
           "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-          "url": "https://raw.githubusercontent.com/Graphify-Labs/graphify/92741d162b2094ffc2fed58cfbd8ee823e9da62c/LICENSE"
+          "url": "https://raw.githubusercontent.com/Graphify-Labs/graphify/f51d46c63d6280a5906277b29b118dc2dd119991/LICENSE"
         },
         {
           "path": "LICENSE-MIT",
           "size": 1068,
           "sha256": "36ecff6bbb97aca1be64e95f42538cf796adde5864edac583e620643c096931a",
-          "url": "https://raw.githubusercontent.com/Graphify-Labs/graphify/92741d162b2094ffc2fed58cfbd8ee823e9da62c/LICENSE-MIT"
+          "url": "https://raw.githubusercontent.com/Graphify-Labs/graphify/f51d46c63d6280a5906277b29b118dc2dd119991/LICENSE-MIT"
         },
         {
           "path": "NOTICE",
           "size": 335,
           "sha256": "3448ea175bba09f6fed8a743000139fb4c7112de83f164355b5540b158576621",
-          "url": "https://raw.githubusercontent.com/Graphify-Labs/graphify/92741d162b2094ffc2fed58cfbd8ee823e9da62c/NOTICE"
+          "url": "https://raw.githubusercontent.com/Graphify-Labs/graphify/f51d46c63d6280a5906277b29b118dc2dd119991/NOTICE"
         },
         {
           "path": "SKILL.md",
-          "size": 47544,
-          "sha256": "75ce4bddb9e118a9d72ded3e7f8281d670943dce853ac5886f2b99a2d8726e5b",
-          "url": "https://raw.githubusercontent.com/Graphify-Labs/graphify/92741d162b2094ffc2fed58cfbd8ee823e9da62c/graphify/skill.md"
+          "size": 50920,
+          "sha256": "bbddbc077b4374a2d6b5181e0d9d0e7cac576df46dff328d7934a1c2f077bc4d",
+          "url": "https://raw.githubusercontent.com/Graphify-Labs/graphify/f51d46c63d6280a5906277b29b118dc2dd119991/graphify/skill.md"
         }
       ]
     },
@@ -571,7 +589,7 @@
       "author": "pbakaus",
       "source": "github.com/pbakaus/impeccable",
       "repo": "pbakaus/impeccable",
-      "ref": "6743a347db6229848348024388033e830ae4af42",
+      "ref": "b49177d32788f2dc585c42831d845dacf1ebed2c",
       "path": ".agents/skills/impeccable",
       "groups": [
         "Design e UI",
@@ -583,391 +601,427 @@
           "path": "LICENSE",
           "size": 10766,
           "sha256": "02bb8c3b4e70190e3986c0404ad2fd8d639b4f534252d82379cc1b502b6d1812",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/LICENSE"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/LICENSE"
         },
         {
           "path": "NOTICE.md",
-          "size": 503,
-          "sha256": "c60a093c2845fd9fb82f9c6f742ece31f379f8190b535309d32d66c45ccffdcb",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/NOTICE.md"
+          "size": 1731,
+          "sha256": "01bf53e5d24d64e19e9e1c33b24c37cef0d314323df7bf678c6ba22d4528a115",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/NOTICE.md"
         },
         {
           "path": "SKILL.md",
-          "size": 11762,
-          "sha256": "c26d6963fe2278f570930ea083ec89609ba094ee93b1ae825719ff5d29b9ac3c",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/SKILL.md"
+          "size": 12833,
+          "sha256": "dc7c49c1ad645d0ab8737e852419bba0a9db27cdceebad3630e88d5f772813be",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/SKILL.md"
         },
         {
           "path": "agents/impeccable_asset_producer.toml",
           "size": 8429,
           "sha256": "4dbdb0cfdc2466961da6b22d200f3ec7bf8bb47c27448a2e6e3c03cdbf589831",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/agents/impeccable_asset_producer.toml"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/agents/impeccable_asset_producer.toml"
         },
         {
           "path": "agents/impeccable_documenter.toml",
-          "size": 3203,
-          "sha256": "2feb3768125ba6469c92a50d516727e6d42f44579165ddfd33409948e2a3803d",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/agents/impeccable_documenter.toml"
+          "size": 3663,
+          "sha256": "4df1e09feae14414edb13c7c49b19b11861dbacba16426e93a828f700dfbada5",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/agents/impeccable_documenter.toml"
         },
         {
           "path": "agents/impeccable_finish_reviewer.toml",
-          "size": 15703,
-          "sha256": "1b80232e22d52b06a7278b9ca1f24f871a181c62cd91f4b18728807e7cf49dbd",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/agents/impeccable_finish_reviewer.toml"
+          "size": 16602,
+          "sha256": "0688c1c01766347d67037553d613076648dadca36e7b523f52e45fb260ace8a8",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/agents/impeccable_finish_reviewer.toml"
         },
         {
           "path": "agents/impeccable_manual_edit_applier.toml",
-          "size": 7032,
-          "sha256": "6c9ce3e27ec4520ead001da3aad2a2ebba481c4e5cd22873db8890259ee579fe",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/agents/impeccable_manual_edit_applier.toml"
+          "size": 7472,
+          "sha256": "4b01f4eb8a49fb00bc88248735c3b5442beb1791ec71d98e6d203f268a24010b",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/agents/impeccable_manual_edit_applier.toml"
+        },
+        {
+          "path": "agents/impeccable_motion_reviewer.toml",
+          "size": 6483,
+          "sha256": "0067e7d3c4f52e8ff51ec94b960e2bed3917facdefee1ff91a4f1471fbd158b8",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/agents/impeccable_motion_reviewer.toml"
         },
         {
           "path": "agents/openai.yaml",
           "size": 236,
           "sha256": "ce9967ad70f99cf04456f3347c266723c2fbbb600267d10a822b7cd20562c321",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/agents/openai.yaml"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/agents/openai.yaml"
         },
         {
           "path": "reference/adapt.md",
-          "size": 11313,
-          "sha256": "9807cdc112b8bcbdeff9cd2516cda4d07129f1d47f29df4d57645344f34950c1",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/adapt.md"
+          "size": 11375,
+          "sha256": "fa68e46b9d163923717da6b3826782ded4a4d32434553994b5dd10bdf08d7399",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/adapt.md"
         },
         {
           "path": "reference/adapt.native.md",
           "size": 3910,
           "sha256": "2455a2613e1fa29b986521c73cbad9424ccda70ef6cbe505779dbca5e16272a2",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/adapt.native.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/adapt.native.md"
         },
         {
           "path": "reference/android.md",
           "size": 4203,
           "sha256": "43780abcf10ac12a569d98001ae38af2b337727a0f7ce66268246ac1d54b5d34",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/android.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/android.md"
         },
         {
           "path": "reference/animate.md",
-          "size": 5236,
-          "sha256": "d658c48ffbe0031e8e3b318996cad6ceafe29e40aa50d5bb25e4bf1d6839dc7c",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/animate.md"
+          "size": 8753,
+          "sha256": "d314f507b836dcc0b71d8080f0a0677af3f45bf732dbcb06f398b76cdf15fe29",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/animate.md"
         },
         {
           "path": "reference/audit.md",
-          "size": 9584,
-          "sha256": "5ba9e3a090fc4c4d212c8cbfa5a48f7454ceb10fa81a284b4a7b4e8351ece2f1",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/audit.md"
+          "size": 12179,
+          "sha256": "cada7b42d1f5baa6d6306c68b476107fec119519f657a78687ab33ceab40afd9",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/audit.md"
         },
         {
           "path": "reference/audit.native.md",
-          "size": 8326,
-          "sha256": "2898eff507738f9102107809e671df3e69f889dee30073030fe96fb2483d8ea3",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/audit.native.md"
+          "size": 9098,
+          "sha256": "d57cb8a44fecd48fe60b47ea6b96c6d8f818a440bed7498317f9c716b1b1f424",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/audit.native.md"
         },
         {
           "path": "reference/bolder.md",
           "size": 3566,
           "sha256": "05b78fb0595e4d5afbf5f17470c84e89cf82f205fea3a6e9b6d8d779b7c4aab1",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/bolder.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/bolder.md"
         },
         {
           "path": "reference/clarify.md",
           "size": 4590,
           "sha256": "173dd66abe65633910dcb04a51f40d6ff2a793f87088f022a02fc4cad24dd133",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/clarify.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/clarify.md"
         },
         {
           "path": "reference/colorize.md",
           "size": 4537,
           "sha256": "bc5f71f1129d0f2c310d913d07c8dc609a1d25644121bd78c308f42d52a0b9e9",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/colorize.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/colorize.md"
         },
         {
           "path": "reference/component-review.md",
           "size": 8017,
           "sha256": "10489e5265e49a4ef2737cd0e674c149ed41e1f703efe922e53ea3c91e833427",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/component-review.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/component-review.md"
         },
         {
           "path": "reference/craft-floor.md",
-          "size": 5532,
-          "sha256": "808a50e0e6c74617a07b0eaf7fd80f58d8e48a13f48e47c658c7534b1724e5c2",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/craft-floor.md"
+          "size": 5765,
+          "sha256": "62127d8e29b9967b0f8c67f5e68a35574fd2f42a773e341243db8531c09981e7",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/craft-floor.md"
         },
         {
           "path": "reference/craft.md",
           "size": 555,
           "sha256": "9205e222bc6565b37fb504ceec93233c2d2a456802b69d16e6b1c44723907c4c",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/craft.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/craft.md"
+        },
+        {
+          "path": "reference/critique-rubric.md",
+          "size": 19937,
+          "sha256": "ba070404e3f61c62b40c25a5d096b803825408de12a0fbb559b1587c89692866",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/critique-rubric.md"
         },
         {
           "path": "reference/critique.md",
-          "size": 48958,
-          "sha256": "c210c9506877c6c8d88880a337fddd95d4315daf70ed6bc631ee6520481f1a0c",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/critique.md"
+          "size": 31231,
+          "sha256": "163c25507e9cea6dbef893be9e35db0ee9de0cbc092bb82d589a54313a12b4af",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/critique.md"
         },
         {
           "path": "reference/degraded/asset-producer.md",
-          "size": 8581,
-          "sha256": "877d274f41500c780bad25b2bca7fa95eff1a32a7b95397dd388c72848e86a6c",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/degraded/asset-producer.md"
+          "size": 8630,
+          "sha256": "cf726ce0c7dd1005078fbf560745d4114afe363319648cc9de42d1536370d117",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/degraded/asset-producer.md"
         },
         {
           "path": "reference/degraded/documenter.md",
-          "size": 3325,
-          "sha256": "bcc05ea92faebb5c74037a9d4263a5ce9a56f5ab07c8ab3c59ee704d8cade745",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/degraded/documenter.md"
+          "size": 3834,
+          "sha256": "5a175082e1357b20cbf25c965e18b520700aa441d9fdb76757cc43fc590b9305",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/degraded/documenter.md"
         },
         {
           "path": "reference/degraded/finish-reviewer.md",
-          "size": 15803,
-          "sha256": "c33c4cfa7f0ce0bedde80d4fc3b595e747d0e9b43a77f06cacb8e899802f709d",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/degraded/finish-reviewer.md"
+          "size": 16751,
+          "sha256": "905e318d3664baae7ac01afa8d52446e8e9aff92ed549a582cd71f6569411ae9",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/degraded/finish-reviewer.md"
         },
         {
           "path": "reference/degraded/manual-edit-applier.md",
-          "size": 7196,
-          "sha256": "5fae7f8a2fc3ddd49ad0a413446dc44daedef5b6b7de5eb935bd2fbfad646d58",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/degraded/manual-edit-applier.md"
+          "size": 7685,
+          "sha256": "357b19acc7ef688c337a4f020633a49db23c84620b13636f9ff20d3ab934df1a",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/degraded/manual-edit-applier.md"
+        },
+        {
+          "path": "reference/degraded/motion-reviewer.md",
+          "size": 6666,
+          "sha256": "363003cd992724abdec08c30d54e79e33829d1938b5f875a7770be98d15e043f",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/degraded/motion-reviewer.md"
         },
         {
           "path": "reference/delight.md",
           "size": 3716,
           "sha256": "098a891028ce59c212b747d3c70468dd750aff7053a703d1336045ed31e0da7c",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/delight.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/delight.md"
         },
         {
           "path": "reference/distill.md",
-          "size": 5598,
-          "sha256": "8b9283510e38f0d190652f300ea0793acfb5a514b38b991fdc0a289bade83391",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/distill.md"
+          "size": 5695,
+          "sha256": "dcf3b5ccf15d5d048114291129685faf9639d15f4def15ab0a68e4acdc1ef94a",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/distill.md"
         },
         {
           "path": "reference/doctor.md",
-          "size": 5617,
-          "sha256": "33aff200de6f76a74b333d7ae4f7d2f4fc2a0da4c1a57264567d88eb8f33b52b",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/doctor.md"
+          "size": 6034,
+          "sha256": "dbe7c264136a573af05c037e9ec0ce8868c613eaee32bfae31986b83bb859075",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/doctor.md"
         },
         {
           "path": "reference/document.md",
-          "size": 27526,
-          "sha256": "7e7e97388cac7b5af7afa5b6fec19a6576c89ce6a998c973cb007b8e5494a8c9",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/document.md"
+          "size": 28397,
+          "sha256": "226b55902f9404a8862090f9f273e699a6088fb87dd034600bf0850dbc06ea5a",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/document.md"
         },
         {
           "path": "reference/extract.md",
           "size": 3406,
           "sha256": "5477ae97189e5c1236cee71a25a5ae50014429a5a2e6da28355c8021a6cdeddd",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/extract.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/extract.md"
+        },
+        {
+          "path": "reference/foundations.md",
+          "size": 7598,
+          "sha256": "0d39efab1603887e258c982cc979861e8dcf25b306d2fa74bd4c847886b41d56",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/foundations.md"
         },
         {
           "path": "reference/generate.md",
           "size": 13221,
           "sha256": "11385badfb532196cec249e73bac2b7f58ada033ed8c4b02b9f0d64ddb46f0dc",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/generate.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/generate.md"
         },
         {
           "path": "reference/harden.md",
           "size": 10748,
           "sha256": "4167eb7fc456cdfe09ff0ac2dbcb5e59cee57e590137aab6cc8ec08aafb6d775",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/harden.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/harden.md"
         },
         {
           "path": "reference/hooks.md",
-          "size": 14496,
-          "sha256": "827c9018836942166536c5e4f087f6523d058e94b161fcf7d3e04f0fb599434c",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/hooks.md"
+          "size": 17759,
+          "sha256": "6e4baca40d38a3829b5140b6f21c7cd30610c2ee11336966d758017fe94899f6",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/hooks.md"
         },
         {
           "path": "reference/init.md",
-          "size": 11766,
-          "sha256": "51349b3a32c7f907102dd680d8e2df9da27082caf46ee15c673be7ce14a5363b",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/init.md"
+          "size": 12765,
+          "sha256": "f9cd7a947da13204bfce91bfa8721c7804fc56d71d9644c64d5907908fe42a9c",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/init.md"
         },
         {
           "path": "reference/ios.md",
           "size": 3812,
           "sha256": "40c87038b5f75147a5952a96237acf312a327bf70c1bcd8e0a5f064625ae9668",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/ios.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/ios.md"
         },
         {
           "path": "reference/layout.md",
           "size": 5161,
           "sha256": "0bc7d7971b3edf2acd0580e847458dc6d84129d90715b452799ace3bed815c7c",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/layout.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/layout.md"
         },
         {
           "path": "reference/live-setup.md",
-          "size": 8186,
-          "sha256": "2b5b2fbf5f658f34ea1997fb1aeebe01604d05187f75c6a4f1f55a5bc78520a4",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/live-setup.md"
+          "size": 8447,
+          "sha256": "1b4178820b9ffe559cde6e3d63ac8a0cbab1e8aeb72e9ef4c6ef69e41aab436d",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/live-setup.md"
         },
         {
           "path": "reference/live.md",
-          "size": 37137,
-          "sha256": "a4251b0282f987d723f9d1bcff8f1bcde87d25cdd297bcc2343695082903535a",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/live.md"
+          "size": 42152,
+          "sha256": "35fd2d61a942557e15c3f098b5ee0b9eae724b82d7312e22dbe0fbb2b453ad1b",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/live.md"
         },
         {
           "path": "reference/mode-operate.md",
           "size": 4716,
           "sha256": "7a52dd7a94ee75f6ae89542c86a1b6e1d306812b16e0d9dbf12d4acad44d148b",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/mode-operate.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/mode-operate.md"
         },
         {
           "path": "reference/mode-persuade.md",
           "size": 3638,
           "sha256": "21e78c8a77badb3f83290cd4577ed3b24bd4dd3b57136d7da75733d4f3ee9ac0",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/mode-persuade.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/mode-persuade.md"
         },
         {
           "path": "reference/mode-read.md",
           "size": 4396,
           "sha256": "a569989e6a3d6453b4c45e9474e162a15cc54e11732ac6baa7990a6e7cccc0b5",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/mode-read.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/mode-read.md"
+        },
+        {
+          "path": "reference/new-work-comp.md",
+          "size": 14526,
+          "sha256": "4994bf8c6a74c623aeddd8b540e6278ffba5a35b6229d25fd4525aee30a29e1e",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/new-work-comp.md"
+        },
+        {
+          "path": "reference/new-work-world.md",
+          "size": 19871,
+          "sha256": "a0ca7486961f8154141c0382474f47b57d93a2c98a063ececdd6de72c4de946f",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/new-work-world.md"
         },
         {
           "path": "reference/new-work.md",
-          "size": 62451,
-          "sha256": "e23f8944f8962a36dc01e1b0bfacc55bb754633b3686e83ae53a40af97444118",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/new-work.md"
+          "size": 34672,
+          "sha256": "2b05021336891a8df57574657dee6663d8c5fca854ec9779ca5d7abc0904eda7",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/new-work.md"
         },
         {
           "path": "reference/onboard.md",
-          "size": 7688,
-          "sha256": "a2b8fd01ea12139b39b3285393f805bb8c326e11b2234dbff4c26c17b4e9c280",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/onboard.md"
+          "size": 7966,
+          "sha256": "fde093391d5b8ce6a68c99c60be993f14486ec6be0bc12415fdc93b39c56c192",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/onboard.md"
         },
         {
           "path": "reference/operate.md",
           "size": 4145,
           "sha256": "a9d2203acd45ca33a13d5c68b02b23ed512425ac15f0e8438318ed124b43729d",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/operate.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/operate.md"
         },
         {
           "path": "reference/optimize.md",
           "size": 7577,
           "sha256": "092c85e5a644e6e528aaff0f341ee1ed57e012c195162fef0a5fc97605f9bb73",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/optimize.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/optimize.md"
         },
         {
           "path": "reference/overdrive.md",
-          "size": 9079,
-          "sha256": "0a0d4ae6eea720c6d6e1c073fc77192d7c2100f78a44d9a8d262ddf22270cf4d",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/overdrive.md"
+          "size": 9261,
+          "sha256": "ad0465df104431974d2cca39a910c84c72afad3addb1ddd4c8bf418dffdb653c",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/overdrive.md"
         },
         {
           "path": "reference/polish.md",
-          "size": 6646,
-          "sha256": "81666fc7f783b4e3514db6554e713dc0479bd9cdedb06e93d15f8b579aae869a",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/polish.md"
+          "size": 6728,
+          "sha256": "5bd75477cbde13311b879b02d89d1bf6c592a7045a6ba6e89d6959018066f7d0",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/polish.md"
         },
         {
           "path": "reference/quieter.md",
-          "size": 5020,
-          "sha256": "9e03b55c6bbdd4acba28cfa9c3b74ba1a4448cdbd35a7200990ab460c6eecaa0",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/quieter.md"
+          "size": 5065,
+          "sha256": "e3bfcb08302cf14347f2a09de6460b1ec8df12dbf2c7d8474bede9a159298c3a",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/quieter.md"
         },
         {
           "path": "reference/region-map.md",
           "size": 3361,
           "sha256": "778cedc9199b407d3e23fa1041e38d548b00b1101a33517aa2a2eb299f9d0edc",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/region-map.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/region-map.md"
         },
         {
           "path": "reference/routing.md",
           "size": 3336,
           "sha256": "77ae09542fbc10aa4e8b119d6fd19359908a47c13c30068d6a150bfdb50e3e10",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/routing.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/routing.md"
         },
         {
           "path": "reference/shape.md",
           "size": 3547,
           "sha256": "a55f016c046cb6a27c55bd7f346375aeb506a755c4fbca19a5f92dbd42309c23",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/shape.md"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/shape.md"
         },
         {
           "path": "reference/typeset.md",
-          "size": 6263,
-          "sha256": "c26c5b4524f3ccb650ed0680c10c25fd18083f8ebfd00a54c4d983c4747aab70",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/typeset.md"
+          "size": 7035,
+          "sha256": "f943b43e009cedb13e97ab3c44049950b905b36b4325cfefc2155ea810d1b626",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/typeset.md"
         },
         {
           "path": "reference/visualize.md",
-          "size": 13956,
-          "sha256": "0c431d0dafbcac7ae8bde70ffa622f9ee542c44ec12e14b48bb44b269bef67eb",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/reference/visualize.md"
+          "size": 14053,
+          "sha256": "4a32d4f3eb29db217c210135680896f3e26907b2a9d53cc0126279116520af80",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/reference/visualize.md"
         },
         {
           "path": "scripts/VERSION",
           "size": 7,
-          "sha256": "bd270b0ddecef6c53cde260e7964048b1186147606e6643d2ccb8cf04e167bd1",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/scripts/VERSION"
+          "sha256": "246a6387221ae9ed8e7b362df6959a816c0a2a1e8f98481beec0cecfe3976486",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/scripts/VERSION"
         },
         {
           "path": "scripts/command-metadata.json",
           "size": 8318,
           "sha256": "c6dcbeed7f13152205ca022c8f24d08683770835083f0a7325261c1c2d5f215c",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/scripts/command-metadata.json"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/scripts/command-metadata.json"
         },
         {
           "path": "scripts/data/font-index-failures.json",
           "size": 2437,
           "sha256": "835f19a0a3812f3652dd6979a2ce5597f654fd01f26e1b420b92d5f42b997ce4",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/scripts/data/font-index-failures.json"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/scripts/data/font-index-failures.json"
         },
         {
           "path": "scripts/data/font-index.json",
           "size": 1100013,
           "sha256": "47edbdfaf27073c47033d1ac7dfee881be49e2dcbda7671d1157300481dde6da",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/scripts/data/font-index.json"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/scripts/data/font-index.json"
         },
         {
           "path": "scripts/engine-checksums.txt",
           "size": 787,
-          "sha256": "63174f5b5136f99bd46051889ecf3f294f15403392a65d531812841018a44156",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/scripts/engine-checksums.txt"
+          "sha256": "1c5f99b7551d026f9aeccc4e34bf082ce0da663a6e0c790912b6bb3d8f3c9d19",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/scripts/engine-checksums.txt"
         },
         {
           "path": "scripts/impeccable",
-          "size": 10167,
-          "sha256": "d9709ee88e790bda2d98f55c4d1abe42e28b91db849882a2998bac79b1e074cb",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/scripts/impeccable"
+          "size": 13724,
+          "sha256": "9a82c1d8a5fc34b0edb3040cf25098c7c5a662e703118e99f96bacd543ed6d68",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/scripts/impeccable"
         },
         {
           "path": "scripts/impeccable.cmd",
-          "size": 10817,
-          "sha256": "5d36d9b48e050e20ac5b3823db4d49fd4e84086d4acae6630cade81fd971b68d",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/scripts/impeccable.cmd"
+          "size": 15105,
+          "sha256": "d779a2f3ad945568f4c9265d9a282578721fa6755fae3b83bb7ffd2752b58eb2",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/scripts/impeccable.cmd"
         },
         {
           "path": "scripts/live-browser-dom.js",
           "size": 12283,
           "sha256": "4b379aff87ce0f485008a2b6a0dc711d00a869f5cf0ec2459279d6364fbf0c9e",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/scripts/live-browser-dom.js"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/scripts/live-browser-dom.js"
         },
         {
           "path": "scripts/live-browser-ignores.js",
           "size": 10423,
           "sha256": "ba8905ab865fde5162e34fc17eb80eba26cc990b319b14a6eed6ca89fd491897",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/scripts/live-browser-ignores.js"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/scripts/live-browser-ignores.js"
         },
         {
           "path": "scripts/live-browser-session.js",
           "size": 5838,
           "sha256": "e042339a54d4521fc47555b602013ed5b51410ec9d7d8878d99a526f5f237f68",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/scripts/live-browser-session.js"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/scripts/live-browser-session.js"
         },
         {
           "path": "scripts/live-browser.js",
-          "size": 553621,
-          "sha256": "718b7e3c5c9cc3cc8fb75ed99b32a7ebce627e3b6a108e21656fa0fd298e34f0",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/scripts/live-browser.js"
+          "size": 566559,
+          "sha256": "994b06b63602c99d87206cfd9184a6f40bc7fc7881e92fc652c9eee0c055a36d",
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/scripts/live-browser.js"
         },
         {
           "path": "scripts/modern-screenshot.umd.js",
           "size": 29290,
           "sha256": "bb36665889124a0b6e15f16045265737449c3bdcf2712cdb08af3cfa01563e2b",
-          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/6743a347db6229848348024388033e830ae4af42/.agents/skills/impeccable/scripts/modern-screenshot.umd.js"
+          "url": "https://raw.githubusercontent.com/pbakaus/impeccable/b49177d32788f2dc585c42831d845dacf1ebed2c/.agents/skills/impeccable/scripts/modern-screenshot.umd.js"
         }
       ]
     },
@@ -979,7 +1033,7 @@
       "author": "langfuse",
       "source": "github.com/langfuse/skills",
       "repo": "langfuse/skills",
-      "ref": "4429a94b309980e1cee2f5960c271e123347cb42",
+      "ref": "f0bcb13088b490c04b3f4870bace17f6d57b199c",
       "path": "skills/langfuse",
       "groups": [
         "AI e conoscenza",
@@ -991,91 +1045,91 @@
           "path": "LICENSE",
           "size": 1070,
           "sha256": "c516c4e125d1c11a13637602a8e0b88c1453b07b209277b4db1fe3e3e3c380fa",
-          "url": "https://raw.githubusercontent.com/langfuse/skills/4429a94b309980e1cee2f5960c271e123347cb42/LICENSE"
+          "url": "https://raw.githubusercontent.com/langfuse/skills/f0bcb13088b490c04b3f4870bace17f6d57b199c/LICENSE"
         },
         {
           "path": "SKILL.md",
-          "size": 8703,
-          "sha256": "312a76ca32756062f28f95cbf36368e8aeb02212f2e3296e9ac214c029eaaae5",
-          "url": "https://raw.githubusercontent.com/langfuse/skills/4429a94b309980e1cee2f5960c271e123347cb42/skills/langfuse/SKILL.md"
+          "size": 8721,
+          "sha256": "0f7b3ea0f8738a8828aa267d9cc11e2bccd154c56458224d689fa2af2d8da10d",
+          "url": "https://raw.githubusercontent.com/langfuse/skills/f0bcb13088b490c04b3f4870bace17f6d57b199c/skills/langfuse/SKILL.md"
         },
         {
           "path": "references/ci-cd.md",
           "size": 2950,
           "sha256": "3982cd4f5ed88c4402a1fccdb8289e8caedab482f122fc0c8ca712e6a727d2c0",
-          "url": "https://raw.githubusercontent.com/langfuse/skills/4429a94b309980e1cee2f5960c271e123347cb42/skills/langfuse/references/ci-cd.md"
+          "url": "https://raw.githubusercontent.com/langfuse/skills/f0bcb13088b490c04b3f4870bace17f6d57b199c/skills/langfuse/references/ci-cd.md"
         },
         {
           "path": "references/cli.md",
-          "size": 2156,
-          "sha256": "eeb58ce7557978169fb207f53bda866d85bc3d13330019546ac5695c6941ba8c",
-          "url": "https://raw.githubusercontent.com/langfuse/skills/4429a94b309980e1cee2f5960c271e123347cb42/skills/langfuse/references/cli.md"
+          "size": 3573,
+          "sha256": "3e1f6eb1f7d427871d6fbe5d7203e7aa0ed582348c97b9e67aff59bcac526b0b",
+          "url": "https://raw.githubusercontent.com/langfuse/skills/f0bcb13088b490c04b3f4870bace17f6d57b199c/skills/langfuse/references/cli.md"
         },
         {
           "path": "references/cost-optimization.md",
           "size": 930,
           "sha256": "4e046ff992158272ba17c6dc50adea3585440cedd1af7cf43b12f0745eb791c5",
-          "url": "https://raw.githubusercontent.com/langfuse/skills/4429a94b309980e1cee2f5960c271e123347cb42/skills/langfuse/references/cost-optimization.md"
+          "url": "https://raw.githubusercontent.com/langfuse/skills/f0bcb13088b490c04b3f4870bace17f6d57b199c/skills/langfuse/references/cost-optimization.md"
         },
         {
           "path": "references/create-dataset.md",
-          "size": 2454,
-          "sha256": "b0a0b34620d5054c588ffa4b016c39e92ede1fdbed18c210f2e9476c88bb49ae",
-          "url": "https://raw.githubusercontent.com/langfuse/skills/4429a94b309980e1cee2f5960c271e123347cb42/skills/langfuse/references/create-dataset.md"
+          "size": 2421,
+          "sha256": "583e4b4391d0c593233e6b2b899194046c40afd1f5755b7cf39b51ecf9996542",
+          "url": "https://raw.githubusercontent.com/langfuse/skills/f0bcb13088b490c04b3f4870bace17f6d57b199c/skills/langfuse/references/create-dataset.md"
         },
         {
           "path": "references/error-analysis.md",
-          "size": 4520,
-          "sha256": "a818baef6fee26f682c50ea2380c12902b1c085ef3d7ac8f06499525045e9024",
-          "url": "https://raw.githubusercontent.com/langfuse/skills/4429a94b309980e1cee2f5960c271e123347cb42/skills/langfuse/references/error-analysis.md"
+          "size": 4769,
+          "sha256": "9af27e709256d11b78e7cb123f0f6476eb53b7b3e893dc3a40aed54f6afbd197",
+          "url": "https://raw.githubusercontent.com/langfuse/skills/f0bcb13088b490c04b3f4870bace17f6d57b199c/skills/langfuse/references/error-analysis.md"
         },
         {
           "path": "references/instrumentation.md",
-          "size": 10409,
-          "sha256": "668440ae785f67a2d01872eaea780ba2e237e0653894b55c74a9dd93fda647c7",
-          "url": "https://raw.githubusercontent.com/langfuse/skills/4429a94b309980e1cee2f5960c271e123347cb42/skills/langfuse/references/instrumentation.md"
+          "size": 10582,
+          "sha256": "70177a77d11fb2c26317a752ebc07dc9c13db5df25d87d36caa3d63fe1b16078",
+          "url": "https://raw.githubusercontent.com/langfuse/skills/f0bcb13088b490c04b3f4870bace17f6d57b199c/skills/langfuse/references/instrumentation.md"
         },
         {
           "path": "references/judge-calibration.md",
           "size": 4536,
           "sha256": "95edd5f90aae53218cff3e696484079b14a1dba1fa0779940abcb4782285efda",
-          "url": "https://raw.githubusercontent.com/langfuse/skills/4429a94b309980e1cee2f5960c271e123347cb42/skills/langfuse/references/judge-calibration.md"
+          "url": "https://raw.githubusercontent.com/langfuse/skills/f0bcb13088b490c04b3f4870bace17f6d57b199c/skills/langfuse/references/judge-calibration.md"
         },
         {
           "path": "references/prompt-engineering.md",
           "size": 2802,
           "sha256": "671c6ff54febec23fe5200408e56410b1e4d42bc7d8bd592cf60d112ae991c5e",
-          "url": "https://raw.githubusercontent.com/langfuse/skills/4429a94b309980e1cee2f5960c271e123347cb42/skills/langfuse/references/prompt-engineering.md"
+          "url": "https://raw.githubusercontent.com/langfuse/skills/f0bcb13088b490c04b3f4870bace17f6d57b199c/skills/langfuse/references/prompt-engineering.md"
         },
         {
           "path": "references/prompt-migration.md",
           "size": 5151,
           "sha256": "c194a0df3614bf8ebfabab5a1729538d276fad8d6ba89fac3b2cfed38a3ff5bc",
-          "url": "https://raw.githubusercontent.com/langfuse/skills/4429a94b309980e1cee2f5960c271e123347cb42/skills/langfuse/references/prompt-migration.md"
+          "url": "https://raw.githubusercontent.com/langfuse/skills/f0bcb13088b490c04b3f4870bace17f6d57b199c/skills/langfuse/references/prompt-migration.md"
         },
         {
           "path": "references/setting-up-evals.md",
           "size": 3800,
           "sha256": "bb17bd66132bd05d43f234c820cd12d19403d53bb657ab441c0039248cd61c3a",
-          "url": "https://raw.githubusercontent.com/langfuse/skills/4429a94b309980e1cee2f5960c271e123347cb42/skills/langfuse/references/setting-up-evals.md"
+          "url": "https://raw.githubusercontent.com/langfuse/skills/f0bcb13088b490c04b3f4870bace17f6d57b199c/skills/langfuse/references/setting-up-evals.md"
         },
         {
           "path": "references/skill-feedback.md",
           "size": 2157,
           "sha256": "4a95834cdaacfd4248bdd1a079550981472803a461f824a0b2cc506e055f50c7",
-          "url": "https://raw.githubusercontent.com/langfuse/skills/4429a94b309980e1cee2f5960c271e123347cb42/skills/langfuse/references/skill-feedback.md"
+          "url": "https://raw.githubusercontent.com/langfuse/skills/f0bcb13088b490c04b3f4870bace17f6d57b199c/skills/langfuse/references/skill-feedback.md"
         },
         {
           "path": "references/user-feedback.md",
           "size": 2159,
           "sha256": "1111706198dad1adeea04fd700688b44b8a16ed9459b77198d6ce6a04556f2d6",
-          "url": "https://raw.githubusercontent.com/langfuse/skills/4429a94b309980e1cee2f5960c271e123347cb42/skills/langfuse/references/user-feedback.md"
+          "url": "https://raw.githubusercontent.com/langfuse/skills/f0bcb13088b490c04b3f4870bace17f6d57b199c/skills/langfuse/references/user-feedback.md"
         },
         {
           "path": "references/v4-project-migration.md",
-          "size": 6422,
-          "sha256": "912d8639e9a60c5e138c42832bc2374e5622916fcc0cfe8814a0420ab06b587e",
-          "url": "https://raw.githubusercontent.com/langfuse/skills/4429a94b309980e1cee2f5960c271e123347cb42/skills/langfuse/references/v4-project-migration.md"
+          "size": 6807,
+          "sha256": "59108e319d6a5e791101bbd122b7775bcbb65978bf766137314652eeef145b13",
+          "url": "https://raw.githubusercontent.com/langfuse/skills/f0bcb13088b490c04b3f4870bace17f6d57b199c/skills/langfuse/references/v4-project-migration.md"
         }
       ]
     },
@@ -1169,13 +1223,13 @@
     },
     {
       "name": "marketing-ideas",
-      "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. For specific channel execution, see the relevant skill (ads, social, emails, etc.).",
+      "description": "When the user wants marketing ideas or growth tactics for a software product, or asks what to try to get attention or the next customers with little time or budget, or after the obvious channels. Draws on a library of 139 ideas. For a specific channel, see that skill (ads, social, emails, and others). For a full plan, see marketing-plan.",
       "license": "MIT",
       "category": "",
       "author": "coreyhaines31",
       "source": "github.com/coreyhaines31/marketingskills",
       "repo": "coreyhaines31/marketingskills",
-      "ref": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "ref": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
       "path": "skills/marketing-ideas",
       "groups": [
         "Marketing"
@@ -1186,31 +1240,31 @@
           "path": "LICENSE",
           "size": 1069,
           "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
-          "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/LICENSE"
+          "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/LICENSE"
         },
         {
           "path": "SKILL.md",
-          "size": 5789,
-          "sha256": "d5ea46d2d2eb2fb039494e8b545550a6bd5b5b9aedc5e65a228ac514deb018ff",
-          "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/marketing-ideas/SKILL.md"
+          "size": 5670,
+          "sha256": "b64d0d8125d272cc87ac25f5df4f0ea3c5dd5a58c3496007cb1ce3924f14cc7d",
+          "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/marketing-ideas/SKILL.md"
         },
         {
           "path": "evals/evals.json",
           "size": 7490,
           "sha256": "f97f2bd1c755e6ca85ab75c500db681bd19559fb070ac249bba135ed7d8ecf60",
-          "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/marketing-ideas/evals/evals.json"
+          "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/marketing-ideas/evals/evals.json"
         },
         {
           "path": "references/guerrilla-marketing.md",
           "size": 5033,
           "sha256": "07b0534b579ce1916a60e79ab426cd936e78b4b261802d6486ad145f7bf552ae",
-          "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/marketing-ideas/references/guerrilla-marketing.md"
+          "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/marketing-ideas/references/guerrilla-marketing.md"
         },
         {
           "path": "references/ideas-by-category.md",
           "size": 15400,
           "sha256": "8b6aa55b3255616ea80c0ea45eca8f2bb70e528510ed76f6392e71475dd0c09b",
-          "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/marketing-ideas/references/ideas-by-category.md"
+          "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/marketing-ideas/references/ideas-by-category.md"
         }
       ]
     },
@@ -1222,7 +1276,7 @@
       "author": "anthropics",
       "source": "github.com/anthropics/skills",
       "repo": "anthropics/skills",
-      "ref": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
       "path": "skills/mcp-builder",
       "groups": [
         "Strumenti e integrazioni",
@@ -1234,61 +1288,67 @@
           "path": "LICENSE.txt",
           "size": 11345,
           "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/mcp-builder/LICENSE.txt"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/mcp-builder/LICENSE.txt"
         },
         {
           "path": "SKILL.md",
-          "size": 9092,
-          "sha256": "0f4592dcb53cf2b5d6b7febee6b4152018b565551a1c29e3c612f57b218ab295",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/mcp-builder/SKILL.md"
+          "size": 11129,
+          "sha256": "b483b56d6673134497e45489c317f26ae0f1429c194db0297e43073e17e6748c",
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/mcp-builder/SKILL.md"
         },
         {
           "path": "reference/evaluation.md",
           "size": 21663,
           "sha256": "8c99479f8a2d22a636c38e274537aac3610879e26f34e0709825077c4576f427",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/mcp-builder/reference/evaluation.md"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/mcp-builder/reference/evaluation.md"
         },
         {
           "path": "reference/mcp_best_practices.md",
           "size": 7330,
           "sha256": "80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/mcp-builder/reference/mcp_best_practices.md"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/mcp-builder/reference/mcp_best_practices.md"
         },
         {
           "path": "reference/node_mcp_server.md",
-          "size": 28550,
-          "sha256": "c3ba35a4f599dd53be9c6555ae72c19a7bf412cd5426576c2c08d42755482c66",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/mcp-builder/reference/node_mcp_server.md"
+          "size": 28745,
+          "sha256": "ee3c95d812e450f6168b734390d0c9ef6f8ebeef041d73a122c972dfbd4d476a",
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/mcp-builder/reference/node_mcp_server.md"
+        },
+        {
+          "path": "reference/node_mcp_server_v2.md",
+          "size": 35171,
+          "sha256": "49b2fe48f33910b743ae3a56353fffa5d5f252f531053f24f2da4e5914c0d3aa",
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/mcp-builder/reference/node_mcp_server_v2.md"
         },
         {
           "path": "reference/python_mcp_server.md",
           "size": 25099,
           "sha256": "2da52f77e675191014ca2e146a4b95aa04d0ca7dd7e2b100322df15ade685e80",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/mcp-builder/reference/python_mcp_server.md"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/mcp-builder/reference/python_mcp_server.md"
         },
         {
           "path": "scripts/connections.py",
           "size": 4875,
           "sha256": "9403668a2041568772082a8b334122c1f88daf0541fb393af4522d0094a47a6e",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/mcp-builder/scripts/connections.py"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/mcp-builder/scripts/connections.py"
         },
         {
           "path": "scripts/evaluation.py",
           "size": 12579,
           "sha256": "49ed1d17cdce5da101b210197740713f49b935c29d4f339542a14b132658e6f7",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/mcp-builder/scripts/evaluation.py"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/mcp-builder/scripts/evaluation.py"
         },
         {
           "path": "scripts/example_evaluation.xml",
           "size": 1194,
           "sha256": "9272b348ddcc4b06ba562367ccd0770e018158c0068ac5116d5e34aaeff8777a",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/mcp-builder/scripts/example_evaluation.xml"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/mcp-builder/scripts/example_evaluation.xml"
         },
         {
           "path": "scripts/requirements.txt",
           "size": 29,
           "sha256": "d5d7558b2368ecea9dfeed7d1fbc71ee9e0750bebd1282faa527d528a344c3c7",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/mcp-builder/scripts/requirements.txt"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/mcp-builder/scripts/requirements.txt"
         }
       ]
     },
@@ -1300,7 +1360,7 @@
       "author": "emilkowalski",
       "source": "github.com/emilkowalski/skills",
       "repo": "emilkowalski/skills",
-      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "ref": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
       "path": "skills/mobile-native",
       "groups": [
         "Mobile",
@@ -1312,25 +1372,25 @@
           "path": "LICENSE",
           "size": 1070,
           "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
-          "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"
+          "url": "https://raw.githubusercontent.com/emilkowalski/skills/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/LICENSE"
         },
         {
           "path": "SKILL.md",
-          "size": 16838,
-          "sha256": "888b7651d66d66dbac4e72b7c554638eb19bd971d686d6cbdf030a5ef3788f55",
-          "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/mobile-native/SKILL.md"
+          "size": 16904,
+          "sha256": "705e267bc47ea61e4c6f94d121efeebdb994055f482673b8a72f4a0dd62f1968",
+          "url": "https://raw.githubusercontent.com/emilkowalski/skills/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/mobile-native/SKILL.md"
         }
       ]
     },
     {
       "name": "pick-ui-library",
-      "description": "Pick the right library for a given frontend task from a curated, opinionated list — numbers, OTP inputs, charts, command menus, virtualization, drag and drop, toasts, state, styling, and more. Only runs when explicitly invoked; it does not trigger on its own.",
+      "description": "Pick the library for a frontend task from a curated list — primitives, toasts, drawers, command menus, OTP, numbers, charts, virtualization, drag and drop, state, styling.",
       "license": "MIT",
       "category": "",
       "author": "emilkowalski",
       "source": "github.com/emilkowalski/skills",
       "repo": "emilkowalski/skills",
-      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "ref": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
       "path": "skills/pick-ui-library",
       "groups": [
         "Sviluppo web",
@@ -1342,13 +1402,13 @@
           "path": "LICENSE",
           "size": 1070,
           "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
-          "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"
+          "url": "https://raw.githubusercontent.com/emilkowalski/skills/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/LICENSE"
         },
         {
           "path": "SKILL.md",
-          "size": 4790,
-          "sha256": "675fdce308683256ed617351a9b74d23457a5fbd0a562d9831b9c764b8c5e682",
-          "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/pick-ui-library/SKILL.md"
+          "size": 4699,
+          "sha256": "db10dc6b2a0c340d873f69e35140ceb3c929e15664b33fcacd1ecb25c5574df3",
+          "url": "https://raw.githubusercontent.com/emilkowalski/skills/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/pick-ui-library/SKILL.md"
         }
       ]
     },
@@ -1383,13 +1443,13 @@
     },
     {
       "name": "prototype",
-      "description": "Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right. Only runs when explicitly invoked; it does not trigger on its own.",
+      "description": "Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right.",
       "license": "MIT",
       "category": "",
       "author": "emilkowalski",
       "source": "github.com/emilkowalski/skills",
       "repo": "emilkowalski/skills",
-      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "ref": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
       "path": "skills/prototype",
       "groups": [
         "Design e UI",
@@ -1401,19 +1461,19 @@
           "path": "LICENSE",
           "size": 1070,
           "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
-          "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"
+          "url": "https://raw.githubusercontent.com/emilkowalski/skills/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/LICENSE"
         },
         {
           "path": "PICKER.md",
-          "size": 7548,
-          "sha256": "31a55eec94715cc79942e91e172e539e3031dcd5e2e5ee7c1446cf2caee960a6",
-          "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/prototype/PICKER.md"
+          "size": 7705,
+          "sha256": "6c1d7a8d1f34dbc83a2e2068cd49f42107f1d02fb4e80369bb4e978d1e026b8d",
+          "url": "https://raw.githubusercontent.com/emilkowalski/skills/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/prototype/PICKER.md"
         },
         {
           "path": "SKILL.md",
-          "size": 7830,
-          "sha256": "bba39c955eb1871c5a02733976ceec5d0324198e0812e667604756489c89f7b9",
-          "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/prototype/SKILL.md"
+          "size": 8095,
+          "sha256": "30def86c5a5a0794a954b2a046d24c847c7129f316d79892abff73d54d79adc0",
+          "url": "https://raw.githubusercontent.com/emilkowalski/skills/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/prototype/SKILL.md"
         }
       ]
     },
@@ -1425,7 +1485,7 @@
       "author": "wshobson",
       "source": "github.com/wshobson/agents",
       "repo": "wshobson/agents",
-      "ref": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+      "ref": "42203085cfc5736204bf0f6d436dff7e1da0bf3f",
       "path": "plugins/llm-application-dev/skills/rag-implementation",
       "groups": [
         "AI e conoscenza"
@@ -1436,19 +1496,19 @@
           "path": "LICENSE",
           "size": 1068,
           "sha256": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
-          "url": "https://raw.githubusercontent.com/wshobson/agents/0874a27b17a22e2b7c2e2bcd725768e0803cad06/LICENSE"
+          "url": "https://raw.githubusercontent.com/wshobson/agents/42203085cfc5736204bf0f6d436dff7e1da0bf3f/LICENSE"
         },
         {
           "path": "SKILL.md",
-          "size": 4555,
-          "sha256": "0dc4aeb9a999127821fd938f07ddc3ca873324b1124f66c5d7ccb50f61a66ef0",
-          "url": "https://raw.githubusercontent.com/wshobson/agents/0874a27b17a22e2b7c2e2bcd725768e0803cad06/plugins/llm-application-dev/skills/rag-implementation/SKILL.md"
+          "size": 4589,
+          "sha256": "d10cae11471ad26fcfa830ff25a345cda2fa99fd6c4fc56b5a64445c954c7045",
+          "url": "https://raw.githubusercontent.com/wshobson/agents/42203085cfc5736204bf0f6d436dff7e1da0bf3f/plugins/llm-application-dev/skills/rag-implementation/SKILL.md"
         },
         {
           "path": "references/details.md",
-          "size": 11063,
-          "sha256": "d117db50282eb6e9c1e1d2672316db1518885054c6489e46dd2a5d7b7bf4955c",
-          "url": "https://raw.githubusercontent.com/wshobson/agents/0874a27b17a22e2b7c2e2bcd725768e0803cad06/plugins/llm-application-dev/skills/rag-implementation/references/details.md"
+          "size": 11791,
+          "sha256": "be21c38da342969f70d788bf55d027bae57f757f26dc0e434afc7e1f5515534d",
+          "url": "https://raw.githubusercontent.com/wshobson/agents/42203085cfc5736204bf0f6d436dff7e1da0bf3f/plugins/llm-application-dev/skills/rag-implementation/references/details.md"
         }
       ]
     },
@@ -4098,7 +4158,7 @@
       "author": "obra",
       "source": "github.com/obra/superpowers",
       "repo": "obra/superpowers",
-      "ref": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "ref": "22f0b463e7a5e579904dd6211a520321035526f7",
       "path": "skills/using-superpowers",
       "groups": [
         "Agenti e produttività"
@@ -4109,55 +4169,55 @@
           "path": "LICENSE",
           "size": 1070,
           "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/LICENSE"
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/LICENSE"
         },
         {
           "path": "SKILL.md",
           "size": 3192,
           "sha256": "82c5c8866ad7f5dd4440ce66bd7806ba48a2f13771beae5cf112e53f08fe36ba",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/using-superpowers/SKILL.md"
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/skills/using-superpowers/SKILL.md"
         },
         {
           "path": "references/antigravity-tools.md",
           "size": 1495,
           "sha256": "4880f6de3da4e32f9659ebe7a72b9e0ebfff04e028c2ed96173f86d0387a04c0",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/using-superpowers/references/antigravity-tools.md"
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/skills/using-superpowers/references/antigravity-tools.md"
         },
         {
           "path": "references/claude-code-tools.md",
           "size": 1469,
           "sha256": "21479a3fee27448cab8748a3b5687e53bb257883bda9c070426f9a1ab5cebf1b",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/using-superpowers/references/claude-code-tools.md"
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/skills/using-superpowers/references/claude-code-tools.md"
         },
         {
           "path": "references/codex-tools.md",
           "size": 4762,
           "sha256": "1a38ad9b188c393052f58d95657a1c35ea6aafc8b5a27f198f3922912f70bbe7",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/using-superpowers/references/codex-tools.md"
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/skills/using-superpowers/references/codex-tools.md"
         },
         {
           "path": "references/gemini-tools.md",
           "size": 4598,
           "sha256": "62b9157bcb0ee3c6784e3d0da0798ddfa5872f9e0c34bea48f3079dabea71965",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/using-superpowers/references/gemini-tools.md"
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/skills/using-superpowers/references/gemini-tools.md"
         },
         {
           "path": "references/hermes-tools.md",
           "size": 1964,
           "sha256": "e2185c976a3c87503910e05e2aea58cc89bc8e569bb624b93df9958ac47a9190",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/using-superpowers/references/hermes-tools.md"
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/skills/using-superpowers/references/hermes-tools.md"
         },
         {
           "path": "references/muse-tools.md",
           "size": 1908,
           "sha256": "5a1da5c575fe18456ca71cd47ebfd8a38c745f8d82a67fe64d5b83080000eeb3",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/using-superpowers/references/muse-tools.md"
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/skills/using-superpowers/references/muse-tools.md"
         },
         {
           "path": "references/pi-tools.md",
           "size": 1242,
           "sha256": "703dbc83d23ecab9c6f388460c38abc482e9dee2fe6772a8c7a255152ad3a4d5",
-          "url": "https://raw.githubusercontent.com/obra/superpowers/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/using-superpowers/references/pi-tools.md"
+          "url": "https://raw.githubusercontent.com/obra/superpowers/22f0b463e7a5e579904dd6211a520321035526f7/skills/using-superpowers/references/pi-tools.md"
         }
       ]
     },
@@ -4642,7 +4702,7 @@
       "author": "anthropics",
       "source": "github.com/anthropics/skills",
       "repo": "anthropics/skills",
-      "ref": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
       "path": "skills/web-artifacts-builder",
       "groups": [
         "Sviluppo web"
@@ -4653,31 +4713,31 @@
           "path": "LICENSE.txt",
           "size": 11345,
           "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/web-artifacts-builder/LICENSE.txt"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/web-artifacts-builder/LICENSE.txt"
         },
         {
           "path": "SKILL.md",
           "size": 3087,
           "sha256": "81c5002c6643b0de7b8710b00e7a9038daa6fb9b68d59870ee6adb12da8d10f8",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/web-artifacts-builder/SKILL.md"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/web-artifacts-builder/SKILL.md"
         },
         {
           "path": "scripts/bundle-artifact.sh",
           "size": 1517,
           "sha256": "abf0e480bf6585b56fab8526a407dfb7dc740812bddd70c636e1e8f3df5f9618",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/web-artifacts-builder/scripts/bundle-artifact.sh"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/web-artifacts-builder/scripts/bundle-artifact.sh"
         },
         {
           "path": "scripts/init-artifact.sh",
           "size": 9924,
           "sha256": "355e5dd4382aaaee91f01f1627eaeab30b2676ffa8d9b3ec328a1ae450ebccaa",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/web-artifacts-builder/scripts/init-artifact.sh"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/web-artifacts-builder/scripts/init-artifact.sh"
         },
         {
           "path": "scripts/shadcn-components.tar.gz",
           "size": 19967,
           "sha256": "1296f069e825de7933de7e8ac63672495cacce3f88f2dc45554dbcddbcbca60f",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/web-artifacts-builder/scripts/shadcn-components.tar.gz"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/web-artifacts-builder/scripts/shadcn-components.tar.gz"
         }
       ]
     },
@@ -4689,7 +4749,7 @@
       "author": "anthropics",
       "source": "github.com/anthropics/skills",
       "repo": "anthropics/skills",
-      "ref": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "ref": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
       "path": "skills/webapp-testing",
       "groups": [
         "Sviluppo web",
@@ -4701,37 +4761,37 @@
           "path": "LICENSE.txt",
           "size": 11345,
           "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/webapp-testing/LICENSE.txt"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/webapp-testing/LICENSE.txt"
         },
         {
           "path": "SKILL.md",
           "size": 3913,
           "sha256": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/webapp-testing/SKILL.md"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/webapp-testing/SKILL.md"
         },
         {
           "path": "examples/console_logging.py",
           "size": 1027,
           "sha256": "ea46877289acb82da7e7ce59d0bc37c8977cd57e2a006d0c88d7a1c625bf95da",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/webapp-testing/examples/console_logging.py"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/webapp-testing/examples/console_logging.py"
         },
         {
           "path": "examples/element_discovery.py",
           "size": 1463,
           "sha256": "d63c89604a22f8845d724e95dda45db49b1bf57c25ce0a83afbb7b8da3d402f0",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/webapp-testing/examples/element_discovery.py"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/webapp-testing/examples/element_discovery.py"
         },
         {
           "path": "examples/static_html_automation.py",
           "size": 953,
           "sha256": "9d533aafb875ee3ab8b8ebf8f5b9003ac8d999da3d09b285cce252e623140064",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/webapp-testing/examples/static_html_automation.py"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/webapp-testing/examples/static_html_automation.py"
         },
         {
           "path": "scripts/with_server.py",
           "size": 3693,
           "sha256": "b0dcf4918935b795f4eda9821579b9902119235ff4447f687a30286e7d0925fd",
-          "url": "https://raw.githubusercontent.com/anthropics/skills/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/webapp-testing/scripts/with_server.py"
+          "url": "https://raw.githubusercontent.com/anthropics/skills/e4bb5d960d87126ff3b3a8af1a104b7db67560ba/skills/webapp-testing/scripts/with_server.py"
         }
       ]
     },
@@ -4743,7 +4803,7 @@
       "author": "emilkowalski",
       "source": "github.com/emilkowalski/skills",
       "repo": "emilkowalski/skills",
-      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "ref": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
       "path": "skills/write-swift",
       "groups": [
         "Mobile"
@@ -4754,13 +4814,13 @@
           "path": "LICENSE",
           "size": 1070,
           "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
-          "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"
+          "url": "https://raw.githubusercontent.com/emilkowalski/skills/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/LICENSE"
         },
         {
           "path": "SKILL.md",
-          "size": 42445,
-          "sha256": "16a4b6adb74e338e55e704ce5753ad54d825438b8a63930eeaede9f3c04c9447",
-          "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/write-swift/SKILL.md"
+          "size": 42776,
+          "sha256": "ad8f3af70b627c165ecd73ecdba49449e35301dd845c397cf813f06582bbdac2",
+          "url": "https://raw.githubusercontent.com/emilkowalski/skills/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/write-swift/SKILL.md"
         }
       ]
     },
@@ -4935,13 +4995,13 @@
         },
         {
           "path": "SKILL.md",
-          "size": 4505,
-          "sha256": "5ff439a7ba0cca7b91937258671ad21116a387219c0b677f5105b9422187e6d4"
+          "size": 6761,
+          "sha256": "8713011dddb3a8bee3367ed9194f67fb40ae8ae7ab0cf4dae78fd383756d1233"
         },
         {
           "path": "scripts/skill_tool.py",
-          "size": 8020,
-          "sha256": "c34facdb2c58eab8f02a34c4f77137952fc63e7760964dc94da707ee6a2c4094"
+          "size": 8237,
+          "sha256": "1d4278f4e68ede199c5aed82fc9825795557572324000beb102229acff3aec0d"
         }
       ]
     },
