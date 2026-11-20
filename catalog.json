@@ -563,7 +563,10 @@
       ]
     }
   ],
+  "defaultSkills": ["controllo-app-desktop", "zero1code-guida"],
   "hostedGroups": {
+    "controllo-app-desktop": ["Agenti e produttività"],
+    "zero1code-guida": ["Agenti e produttività"],
     "zero1-docx": [
       "Office e documenti"
     ],

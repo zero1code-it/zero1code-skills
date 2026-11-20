@@ -53,7 +53,11 @@ function walk(dir) {
 const OWN_GROUP = 'zero1code skill'
 const MAX_GROUPS = 4
 
-export function hosted(root, hostedGroups = {}) {
+/**
+ * @param defaultSkills - names from catalog.json `defaultSkills`: hosted skills the desktop app ships and installs by itself
+ *   (marked `default: true` in the index). Every name must be a skill hosted here.
+ */
+export function hosted(root, hostedGroups = {}, defaultSkills = []) {
   const skillsDir = join(root, 'skills')
   const errors = []
   const skills = []
@@ -79,9 +83,10 @@ export function hosted(root, hostedGroups = {}) {
     skills.push({
       name, description: meta.description ?? '', license: meta.license ?? '', category: meta.metadata?.category ?? '',
       author: meta.metadata?.author ?? '', groups: [OWN_GROUP, ...(hostedGroups[name] ?? [])],
-      hasScripts: hasScripts(files.map((f) => f.path)), files,
+      hasScripts: hasScripts(files.map((f) => f.path)), ...(defaultSkills.includes(name) ? { default: true } : {}), files,
     })
   }
+  for (const name of defaultSkills) if (!names.includes(name)) errors.push(`defaultSkills: ${name} is not a skill hosted in skills/`)
   return { errors, skills }
 }
 
@@ -171,7 +176,7 @@ export function render(skills) {
 export function check(root, indexText, catalog) {
   const errors = []
   const index = JSON.parse(indexText)
-  const h = hosted(root, catalog.hostedGroups)
+  const h = hosted(root, catalog.hostedGroups, catalog.defaultSkills)
   errors.push(...h.errors)
   const want = JSON.stringify(h.skills)
   const have = JSON.stringify(index.skills.filter((s) => s.repo === undefined))
@@ -193,7 +198,7 @@ if (process.argv[1]?.endsWith('build-index.mjs')) { // CLI only; the tests impor
     if (errors.length) { console.error(errors.join('\n')); process.exit(1) }
     console.log('index.json: consistent')
   } else {
-    const h = hosted(root, readCatalog(root).hostedGroups)
+    const h = hosted(root, readCatalog(root).hostedGroups, readCatalog(root).defaultSkills)
     const e = await external(readCatalog(root), { token: process.env.GITHUB_TOKEN })
     const errors = [...h.errors, ...e.errors]
     if (errors.length) { console.error(errors.join('\n')); process.exit(1) }

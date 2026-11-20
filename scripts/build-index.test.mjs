@@ -29,6 +29,17 @@ test('valid hosted skill is indexed with metadata and script flag', () => {
   assert.deepEqual(skills[0].files.map((f) => f.path), ['SKILL.md', 'scripts/run.sh'])
 })
 
+test('default skills are marked, and a default that is not hosted here is an error', () => {
+  const root = mkdtempSync(join(tmpdir(), 'skills-'))
+  skill(root, 'good', 'name: good\ndescription: Does.\nlicense: MIT')
+  skill(root, 'plain', 'name: plain\ndescription: Does.\nlicense: MIT')
+  const { errors, skills } = hosted(root, {}, ['good'])
+  assert.deepEqual(errors, [])
+  assert.equal(skills.find((s) => s.name === 'good').default, true)
+  assert.equal('default' in skills.find((s) => s.name === 'plain'), false)
+  assert.deepEqual(hosted(root, {}, ['missing']).errors, ['defaultSkills: missing is not a skill hosted in skills/'])
+})
+
 test('name mismatch, missing description and license are all reported', () => {
   const root = mkdtempSync(join(tmpdir(), 'skills-'))
   skill(root, 'bad', 'name: other')

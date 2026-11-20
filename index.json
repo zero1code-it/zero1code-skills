@@ -268,6 +268,36 @@
       ]
     },
     {
+      "name": "controllo-app-desktop",
+      "description": "Vede e usa le applicazioni del desktop di Windows (finestre, pulsanti, menu, campi, installer, finestre di dialogo, Esplora file, notifiche) leggendo l'albero di accessibilità, senza screenshot. Usala quando l'utente chiede di aprire, cliccare, compilare, leggere o controllare qualcosa in un programma installato sul PC, di automatizzare un'app desktop o di verificare un'interfaccia nativa. Non usarla per siti web né per file e comandi che bastano dal terminale.",
+      "license": "MIT",
+      "category": "zero1code",
+      "author": "zero1code",
+      "groups": [
+        "zero1code skill",
+        "Agenti e produttività"
+      ],
+      "hasScripts": true,
+      "default": true,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "size": 5651,
+          "sha256": "cca16938b77c4333257aba686f82358be92d0ec2b0c76f0635e20901a40d4b42"
+        },
+        {
+          "path": "approved.json",
+          "size": 259,
+          "sha256": "ba47ef2e0429578abf3b28ffab12859080fc294b226cfb327304515bb61c43e5"
+        },
+        {
+          "path": "scripts/agent-desktop.ps1",
+          "size": 16343,
+          "sha256": "e9ba091f28057341df4dec7e68b472144a8d10224e701913e75ee07e22f3f322"
+        }
+      ]
+    },
+    {
       "name": "debian-ubuntu",
       "description": "Debian, Ubuntu, Mint, Pop!_OS, Kali admin: apt/dpkg errors, pinning, held packages, repo keys, snaps, unattended-upgrades, release upgrades, PPAs, kernels, systemd.",
       "license": "MIT",
@@ -5046,6 +5076,36 @@
           "path": "scripts/render.py",
           "size": 3714,
           "sha256": "bf84ccbfdb0b3b0105066526e2f88971e224648c38862bc119b98ce7a99e06b4"
+        }
+      ]
+    },
+    {
+      "name": "zero1code-guida",
+      "description": "Guida all'uso dell'app zero1code. Usala quando l'utente chiede come si usa zero1code, cosa sanno fare l'app o l'agente, dove trovare una funzione (aree di lavoro, sessioni, modelli, livelli di ragionamento, «Compatta ora», comandi /, riferimenti @, allegati, skill, plugin, attività di automazione, impostazioni, account e credito, aggiornamenti) o cosa è cambiato nell'ultima versione.",
+      "license": "MIT",
+      "category": "zero1code",
+      "author": "zero1code",
+      "groups": [
+        "zero1code skill",
+        "Agenti e produttività"
+      ],
+      "hasScripts": false,
+      "default": true,
+      "files": [
+        {
+          "path": "SKILL.md",
+          "size": 1081,
+          "sha256": "37d56519ad141c7db62ecc6a55b3a430cd14c22f099587bd04e6a569cf001e16"
+        },
+        {
+          "path": "guida.md",
+          "size": 10077,
+          "sha256": "6f2299d11ed8a74708f14cd81ed4ee4801891f2beab15a5111d57a401b07367f"
+        },
+        {
+          "path": "novita.md",
+          "size": 2623,
+          "sha256": "75b7932fbba76a4dd55d65add6df14b8d12f40df7b2b25d9e9e9af8da23391c1"
         }
       ]
     }
