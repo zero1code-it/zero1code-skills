@@ -2622,7 +2622,7 @@
     },
     {
       "name": "zero1-sap-isu",
-      "description": "Conoscenza di SAP IS-U standard (SAP for Utilities, ECC 6.0 e SAP S/4HANA Utilities) per le quattro aree Master data, Meter reading (letture), Billing (fatturazione, tariffe) e Credit / FI-CA (contract accounting, solleciti, pagamenti). Usala quando l'utente chiede di oggetti, tabelle, transazioni, BAPI, exit o processi IS-U: partner commerciale, conto contrattuale, contratto, impianto, premise, apparecchi, letture, subentro/cessazione (move-in/move-out), bolletta, errore di fatturazione, outsorting, piano acconti, saldo cliente, sollecito, BPEM, IDE/IDEX, differenze ECC vs S/4HANA, o nomina EVER, EANL, EVBS, EABL, ERCH, ERDK, DFKKOP, EA00, EA19, EC50E, EG31, EL28, FPL9, FPVA. Non copre le personalizzazioni Z/Y dei clienti.",
+      "description": "(Beta) Conoscenza di SAP IS-U standard (SAP for Utilities, ECC 6.0 e SAP S/4HANA Utilities) per le quattro aree Master data, Meter reading (letture), Billing (fatturazione, tariffe) e Credit / FI-CA (contract accounting, solleciti, pagamenti). Usala quando l'utente chiede di oggetti, tabelle, transazioni, BAPI, exit o processi IS-U: partner commerciale, conto contrattuale, contratto, impianto, premise, apparecchi, letture, subentro/cessazione (move-in/move-out), bolletta, errore di fatturazione, outsorting, piano acconti, saldo cliente, sollecito, BPEM, IDE/IDEX, differenze ECC vs S/4HANA, o nomina EVER, EANL, EVBS, EABL, ERCH, ERDK, DFKKOP, EA00, EA19, EC50E, EG31, EL28, FPL9, FPVA. Non copre le personalizzazioni Z/Y dei clienti.",
       "license": "MIT",
       "category": "SAP",
       "author": "zero1code",
@@ -2639,8 +2639,8 @@
         },
         {
           "path": "SKILL.md",
-          "size": 4748,
-          "sha256": "7dc26d3653d537e63f74b98f2b07ec3da313249834acde42274dc43c18861edb"
+          "size": 4762,
+          "sha256": "5ca2204ee44ccf36e24919845304745c002bf0389822d3fcdb5f8e2a6b021a3b"
         },
         {
           "path": "references/billing.md",
