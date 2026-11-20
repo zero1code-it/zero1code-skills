@@ -310,6 +310,30 @@
       ]
     },
     {
+      "repo": "vercel-labs/agent-desktop",
+      "ref": "e8934a5e95e1d212c74ead95cd3e4701c04eca31",
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "agent-desktop",
+          "path": "skills/agent-desktop",
+          "groups": [
+            "Strumenti e integrazioni"
+          ]
+        },
+        {
+          "name": "agent-desktop-windows",
+          "path": "skills/agent-desktop-windows",
+          "groups": [
+            "Strumenti e integrazioni"
+          ]
+        }
+      ]
+    },
+    {
       "repo": "vercel-labs/skills",
       "ref": "a80e4c9d12d607631249d4d7d059f835d4b2f13a",
       "license": "MIT",
@@ -328,13 +352,9 @@
     }
   ],
   "defaultSkills": [
-    "controllo-app-desktop",
     "zero1code-guida"
   ],
   "hostedGroups": {
-    "controllo-app-desktop": [
-      "Agenti e produttività"
-    ],
     "zero1code-guida": [
       "Agenti e produttività"
     ],
