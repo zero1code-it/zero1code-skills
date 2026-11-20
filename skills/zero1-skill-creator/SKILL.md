@@ -40,7 +40,13 @@ Good: "Scrive e riassume verbali di riunione nel formato aziendale (decisioni, a
 Usala quando l'utente chiede un verbale, un riassunto di riunione o le azioni emerse da una chiamata."
 Weak: "Aiuta con le riunioni."
 
-Maximum 1024 characters.
+Agents tend to under-use skills: when the description is timid, the skill sits unused even when it would help. So be
+a little insistent: add the near-neighbours of the request ("also when the user does not say 'skill' or names the
+document only by its purpose") and the typical wording, including casual or misspelled phrasings. Keep the "when" in
+the description, not in the body: the body is read only after the skill has already been chosen.
+
+Maximum 1024 characters. Then re-read it as if you were the agent seeing only the header: would you pick this skill for
+the example request from step 1? And would you wrongly pick it for a similar but different request?
 
 ## 3. Write the body
 
@@ -48,10 +54,18 @@ Maximum 1024 characters.
 - Give the steps as a numbered list of imperative instructions the agent can follow without guessing.
 - Show the expected output once (a short template or example), not five.
 - State the rules and the failure cases ("se manca la data, chiedila; non inventarla").
-- Explain **why** for rules that are not obvious: the agent applies them better and handles edge cases.
-- Keep it short and concrete: under 500 lines. Move long reference material (templates, glossaries, tables) into
-  extra files next to `SKILL.md` (`references/...`) and say in the body when to read them. Put deterministic
-  operations in small scripts (`scripts/...`) and say how to run them.
+- Explain **why** for rules that are not obvious. Prefer "use the company wording, because clients compare documents
+  side by side" to "ALWAYS use the company wording": capitals and rigid commands make the agent literal and brittle,
+  a stated reason lets it handle cases you did not foresee. If you catch yourself shouting, rewrite as a reason.
+- Write for the general case, not only for the user's one example: a skill that works only on that example is useless
+  the second time. Prefer a short example of the pattern ("Input: ... Output: ...") to a long list of special cases.
+- Keep it short: every line should earn its place; cut what does not change the agent's behaviour. Aim well under
+  500 lines.
+- Layer the content (progressive disclosure): the header is always loaded, the body whenever the skill triggers, extra
+  files only when needed. So keep `SKILL.md` to the workflow and the rules; move long material (templates, glossaries,
+  tables, one file per variant such as `references/cliente-a.md`) to `references/...` and say in the body **when** to
+  read each file. Put deterministic or repetitive operations (convert, validate, compute) in small scripts under
+  `scripts/...` and say how to run them: a script runs without filling the agent's context.
 - No secrets, tokens or passwords: skills are plain files and may be shared.
 
 ## 4. Save it
@@ -74,9 +88,15 @@ Then run `python scripts/skill_tool.py check <name>`; fix every error and read t
 ## 5. Test it with the user
 
 1. Tell the user the skill is saved; it appears in the Skill panel and in the `/` menu (a new chat may be needed).
-2. Ask them to try the example request from step 1 and to say what was missing or wrong.
-3. Adjust the description (if it did not trigger or triggered too often) or the body (if the result was off), keep
-   changes small, run `check` again.
+2. Agree on 2-3 realistic requests, written the way the user would really type them (one is the example from step 1,
+   one is a variant, one is a near-miss that should **not** use the skill). Vague test prompts prove nothing.
+3. Run them one at a time in a new chat, with the skill, and look at what actually happened, not only the final
+   answer: did the skill load? did the agent follow the steps or skip some? did it waste time on something useless?
+   Ask the user to judge the result and say what was missing or wrong.
+4. Fix the cause, not the symptom. Did not trigger or triggered too often: adjust the description. Result off: adjust
+   the body, preferably by explaining the reason of the rule rather than adding a stricter command. The same helper
+   code written by hand in every run: put it in `scripts/`. Keep changes small, run `check`, repeat the requests.
+5. Stop when the user is satisfied or after three rounds without real progress; then say what is still open.
 
 ## Improving an existing skill
 

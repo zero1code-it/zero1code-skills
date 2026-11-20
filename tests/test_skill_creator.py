@@ -62,6 +62,15 @@ class SkillTool(unittest.TestCase):
         self.assertIn("WHEN", r.stdout)
         self.assertIn("headings", r.stdout)
 
+    def test_check_advises_against_shouting_rules(self):
+        folder = self.home / ".dsh" / "skills" / "urla"
+        folder.mkdir(parents=True)
+        body = "# Urla\nALWAYS do A. NEVER do B. You MUST do C.\n"
+        head = "---\nname: urla\ndescription: Usala quando l'utente chiede un riepilogo ordinato dei documenti.\n---\n"
+        (folder / "SKILL.md").write_text(head + body, encoding="utf-8")
+        r = self.run_tool("check", "urla")
+        self.assertIn("MUST/ALWAYS/NEVER", r.stdout)
+
 
 if __name__ == "__main__":
     unittest.main()
