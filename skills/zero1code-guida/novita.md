@@ -8,11 +8,6 @@
 
 ## 1.4.7
 
-- **Area di lavoro sempre disponibile**: l'area iniziale ora si crea nella tua cartella utente, così l'app parte anche quando Windows protegge Documenti e Desktop.
-- **Errori più chiari**: se Windows blocca la cartella scelta, l'app ti dice perché; nella Guida, alla voce «Problemi frequenti», trovi come risolvere.
-
-## 1.4.6
-
 - **Benvenuto in zero1code Harness**: il tuo AI code-assistant.
 - **Per iniziare**: accedi con il tuo account, crea un'area di lavoro sulla cartella di un progetto e apri una nuova sessione.
 - **Guida e assistente**: nella sezione Guida trovi la guida completa e un assistente dedicato che risponde alle domande sull'uso dell'app.
