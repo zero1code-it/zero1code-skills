@@ -87,7 +87,32 @@ Le novità di ogni versione sono nel riquadro «Novità» del pannello «Guida»
 ## Plugin
 
 - Il pannello **Plugin** nella barra laterale mostra i plugin installati e permette di aggiungerne di terze parti (npm, Git o cartella locale). Installa solo plugin di cui ti fidi.
-- Sempre in **Plugin**, «Impostazioni dei plugin integrati» regola subagenti, ciclo dell'agente e shell.
+- Sempre in **Plugin**, «Impostazioni dei plugin integrati» regola subagenti, ciclo dell'agente e shell. Ogni campo mostra «Modificato» quando non usa il valore predefinito; «Ripristina il valore predefinito» lo riporta com'era, «Salva» applica le modifiche.
+
+### Subagenti
+
+Un subagente è un agente secondario che l'agente principale avvia per una parte del lavoro (cercare nel codice, scrivere un modulo, controllare un risultato) e che gli restituisce solo l'esito. Il lavoro dei subagenti si vede nella conversazione e consuma credito come quello dell'agente principale.
+
+- **Profondità massima di ricorsione** (predefinito 1): quanti livelli di subagenti si possono creare. 0 disattiva i subagenti; 1 vuol dire che solo l'agente principale li crea. Alzala solo per lavori molto grandi: ogni livello in più moltiplica le chiamate e il credito.
+- **Limite di parallelismo dei subagenti** (predefinito 8): quanti subagenti possono lavorare insieme sotto lo stesso agente principale, a tutti i livelli. Oltre il limite le nuove richieste vengono rifiutate. Abbassalo se vuoi tenere sotto controllo il consumo di credito.
+- **Scelta del modello**: con «Consenti agli agenti di scegliere i modelli per i subagenti» attivo, l'agente sceglie modello e livello di ragionamento di ogni subagente fra quelli che spunti nell'elenco (almeno uno). Spento, i subagenti usano il modello dell'agente principale. Vale per le nuove sessioni.
+
+Come scegliere i modelli dei subagenti:
+
+- **Lavoro meccanico o con istruzioni precise** (cercare file, leggere e riassumere, rinominare, eseguire test o comandi, copiare): un modello economico e veloce, con ragionamento basso. Costa molto meno e di solito basta.
+- **Sviluppo dentro scelte già fatte** (scrivere o correggere codice seguendo un piano): un modello di fascia media o pari a quello principale, con ragionamento medio.
+- **Parti delicate o decisioni importanti** (architettura, sicurezza, revisione indipendente di una modifica): un modello di pari livello a quello principale, con ragionamento alto. Una seconda lettura indipendente vale il credito in più.
+- Autorizza nell'elenco almeno un modello economico e uno di pari livello, così l'agente può scegliere in base all'attività. Puoi anche chiederglielo nel messaggio, per esempio: «usa un subagente con un modello economico per cercare dove viene usata questa funzione».
+- I subagenti convengono quando le parti del lavoro sono indipendenti; per un compito piccolo l'agente principale fa prima da solo.
+
+### Ciclo dell'agente
+
+- **Chiamate agli strumenti in parallelo** (predefinito 10): quante chiamate sicure (per esempio letture di file e ricerche) l'agente può eseguire insieme nello stesso passaggio. Un valore più alto velocizza le esplorazioni ampie; abbassalo se il PC rallenta o se vuoi che le azioni avvengano una alla volta.
+
+### Shell
+
+- **Timeout dei comandi (ms)** (predefinito 120000, cioè 2 minuti): dopo quanto un comando lanciato dall'agente viene terminato. Alzalo se build, installazioni o test lunghi vengono interrotti.
+- **Limite di output per flusso (byte)** (predefinito 64000): quanto output di un comando l'agente riceve direttamente. Quello in più non si perde: finisce in un file temporaneo che l'agente può leggere se serve. Un limite più alto fa leggere all'agente più testo e consuma più credito.
 
 ## Attività di automazione
 
