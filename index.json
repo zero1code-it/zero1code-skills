@@ -2609,6 +2609,32 @@
       ]
     },
     {
+      "name": "zero1-code-review",
+      "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/spec asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to 'review since X'.",
+      "license": "MIT",
+      "category": "sviluppo",
+      "author": "Matt Pocock",
+      "groups": [
+        "zero1code skill",
+        "Agenti e produttività",
+        "Sviluppo web"
+      ],
+      "hasScripts": false,
+      "default": true,
+      "files": [
+        {
+          "path": "LICENSE",
+          "size": 1068,
+          "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 7171,
+          "sha256": "1c6cac84edbc4d531c84fcae61f83c40ac0522393cd3e4c5619df84f78f55707"
+        }
+      ]
+    },
+    {
       "name": "zero1-docx",
       "description": "(Beta) Create, read and edit Word documents (.docx): reports, letters, contracts, memos, offers, minutes, templates. Use when the user asks for a Word file, \"documento Word\", \"relazione\", \"lettera\", \"contratto\", \"verbale\", or hands over a .docx to review, fill in, correct or annotate (comments, tracked changes). Covers headings and styles, tables, images, headers/footers with page numbers, table of contents, hyperlinks, A4 and landscape pages. Not for PDFs, Google Docs, spreadsheets or slides.",
       "license": "MIT",
@@ -2757,6 +2783,136 @@
           "path": "references/meter-reading.md",
           "size": 11218,
           "sha256": "05fd843a4f4e650c84d457768bb8274d932e8cbc81046cabab41c241e111392c"
+        }
+      ]
+    },
+    {
+      "name": "zero1-security-review",
+      "description": "Security code review for vulnerabilities. Use when asked to \"security review\", \"find vulnerabilities\", \"check for security issues\", \"audit security\", \"OWASP review\", or review code for injection, XSS, authentication, authorization, cryptography issues. Provides systematic review with confidence-based reporting.",
+      "license": "Apache-2.0 AND CC-BY-SA-4.0",
+      "category": "sviluppo",
+      "author": "Sentry",
+      "groups": [
+        "zero1code skill",
+        "Sviluppo web"
+      ],
+      "hasScripts": false,
+      "default": true,
+      "files": [
+        {
+          "path": "LICENSE",
+          "size": 884,
+          "sha256": "0fc858d87f467971ee612fc183896257a1c160a1610a443896b33ae4d2a44ef7"
+        },
+        {
+          "path": "LICENSE-APACHE-2.0",
+          "size": 10785,
+          "sha256": "96e78a9ce85795b117c8929887bdb78f88bf23f7b85a31f0872cde4dff7e92cd"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 12407,
+          "sha256": "42d8d52e91a5c6baf2fd9b1b12deb7e4b968c53cf65800bf3f8cd4b9343da7d5"
+        },
+        {
+          "path": "infrastructure/docker.md",
+          "size": 9400,
+          "sha256": "84bd49469c5a0cbd42fecdcce752de98cf6821b601dfef6a1920df61f030ae62"
+        },
+        {
+          "path": "languages/javascript.md",
+          "size": 10028,
+          "sha256": "f4226c82de13da9dec9be7b509932d74a4ade2c8d46b98a078a5b38bf8aa3319"
+        },
+        {
+          "path": "languages/python.md",
+          "size": 9492,
+          "sha256": "32d0b1304d132fc582320d584d54bbaea566d51700cd16b3f0be723ed834a556"
+        },
+        {
+          "path": "references/api-security.md",
+          "size": 12741,
+          "sha256": "65b2456b4c5ae0d6d9849eac8196ac03fbefbf88657c5e069a8aa5063dd6afbf"
+        },
+        {
+          "path": "references/authentication.md",
+          "size": 9071,
+          "sha256": "7bc598cd4af33bb62406f5a0e8ff7adebff83c04e5fb449e6738f96ae0e26be6"
+        },
+        {
+          "path": "references/authorization.md",
+          "size": 10007,
+          "sha256": "5ccfd579a1eca4d9d374eb00b04ba33cc9a2918e14e5cb7620c136a6feaeffff"
+        },
+        {
+          "path": "references/business-logic.md",
+          "size": 12660,
+          "sha256": "fc8ec30eb19f73759e8901e58d7ca66fc87035703325cc8a844298102fa6298a"
+        },
+        {
+          "path": "references/cryptography.md",
+          "size": 8703,
+          "sha256": "1e1301624e0c9b1699e1d95af11df06a67d104ff06443e93711bb656152f364c"
+        },
+        {
+          "path": "references/csrf.md",
+          "size": 9943,
+          "sha256": "7b57ba0a45a291eee24578af8b0c69515c76e452c33d8c2d717c66ee3bbdda20"
+        },
+        {
+          "path": "references/data-protection.md",
+          "size": 9565,
+          "sha256": "920b7dfb86dc696002d31022c1f7665ef602dd1ed76f1124ad937d488ce2b381"
+        },
+        {
+          "path": "references/deserialization.md",
+          "size": 10234,
+          "sha256": "be9946daf389ad594fbc4065246ff334c389da1e2cf593180ca150b0204287fb"
+        },
+        {
+          "path": "references/error-handling.md",
+          "size": 11632,
+          "sha256": "e12d3c9f713614223ce797935f3a4c2ac1a7f1fcf0ea24e865a1a70efeab4fb9"
+        },
+        {
+          "path": "references/file-security.md",
+          "size": 12344,
+          "sha256": "a0a001fb79fe9f1169fa3ba523225164744c42d8779341f15d3d0fc349185f2a"
+        },
+        {
+          "path": "references/injection.md",
+          "size": 6813,
+          "sha256": "d3989e97af773f521170b430a0e629b26c6ff2051cd826fa62a895523f268178"
+        },
+        {
+          "path": "references/logging.md",
+          "size": 12012,
+          "sha256": "acca4eeebfc451bb62a7c085d1121ffa443e8cd0831548c2ae6f7fc606056cbc"
+        },
+        {
+          "path": "references/misconfiguration.md",
+          "size": 10305,
+          "sha256": "919c44e309eaa6427a8bb44a2ed645fbf2b46d9dfe86a0fcdb2d084201898390"
+        },
+        {
+          "path": "references/modern-threats.md",
+          "size": 13269,
+          "sha256": "d2ac69d91ade6df9c4bf89b2be0d203651d1a0cc5a67d03db8013af52c8ffe6b"
+        },
+        {
+          "path": "references/ssrf.md",
+          "size": 10734,
+          "sha256": "646a8244fa61997b9b4f093169be1af4f94e6a3d04dcae8d426bb821870b2bff"
+        },
+        {
+          "path": "references/supply-chain.md",
+          "size": 9149,
+          "sha256": "ef3000d91763ccdddfbce2660943c4090b4c16b3b33afe980f4e10947729e1f1"
+        },
+        {
+          "path": "references/xss.md",
+          "size": 7599,
+          "sha256": "4735df1e581b757b078605fbc27d37e85cfe182c45ab326c9e536c71a930680c"
         }
       ]
     },

@@ -352,7 +352,9 @@
     }
   ],
   "defaultSkills": [
-    "zero1code-guida"
+    "zero1code-guida",
+    "zero1-code-review",
+    "zero1-security-review"
   ],
   "hostedGroups": {
     "zero1code-guida": [
@@ -372,6 +374,13 @@
     ],
     "zero1-sap-isu": [
       "SAP"
+    ],
+    "zero1-code-review": [
+      "Agenti e produttività",
+      "Sviluppo web"
+    ],
+    "zero1-security-review": [
+      "Sviluppo web"
     ]
   }
 }

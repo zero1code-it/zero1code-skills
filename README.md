@@ -6,7 +6,12 @@ Pubblico in lettura. Solo i collaboratori dell'organizzazione scrivono su `main`
 
 ## Due tipi di voce
 
-- **Ospitate** (`skills/<nome>/`): skill scritte da noi, nel repository.
+- **Ospitate** (`skills/<nome>/`): skill scritte da noi, nel repository. Fanno eccezione le copie modificate di skill di
+  terzi che servono come predefinite (una predefinita deve essere ospitata): `zero1-code-review` (da
+  `mattpocock/skills`, MIT) e `zero1-security-review` (da `getsentry/skills`, Apache-2.0, con riferimenti OWASP
+  CC BY-SA 4.0). Tengono la licenza degli autori nella loro cartella e, in testa a `SKILL.md`, la sorgente, il commit
+  di partenza e le modifiche. Il controllo settimanale delle sorgenti non le segue: per aggiornarle si confronta a mano
+  il repository dell'autore con il commit indicato.
 - **Riferimenti** (`catalog.json`): skill di terzi. **Qui non c'è nessuna copia del loro lavoro.** L'indice riporta, per ogni
   skill, il repository dell'autore, un commit fissato e l'hash di ogni file. L'app scarica da `raw.githubusercontent.com` a quel
   commit, verifica dimensione e sha256 e mette accanto alla skill i file di licenza del repository originale (`LICENSE`,
@@ -72,6 +77,10 @@ Aggiungere o togliere una predefinita richiede un rilascio dell'app.
 
 - `zero1code-guida`: `guida.md` e `novita.md` sono anche la guida che l'app mostra nel pannello «Guida» (dalla copia
   inclusa nell'installer). Aggiorna `novita.md` per una versione solo quando quella versione è pubblicata.
+- `zero1-code-review`: revisione delle modifiche da un punto fisso su due assi, regole del repository e aderenza alla
+  specifica, con due sottoagenti (o in sequenza se non ci sono).
+- `zero1-security-review`: revisione di sicurezza del codice, segnala solo ciò che è confermato; non lancia scanner né
+  comandi di rete se l'utente non lo chiede.
 
 ## Controlli
 
