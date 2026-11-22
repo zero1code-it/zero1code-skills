@@ -6,6 +6,12 @@
 
 # Novità di zero1code
 
+## 1.4.9
+
+- **Code review**: la nuova skill `zero1-code-review`, già installata, rivede le modifiche del progetto confrontandole con le regole del repository e con ciò che era stato chiesto. Chiedi all'agente «fai una code review delle modifiche».
+- **Revisione di sicurezza**: la nuova skill `zero1-security-review`, già installata, cerca vulnerabilità nel codice (iniezioni, XSS, permessi, segreti) e segnala solo i problemi confermati. Chiedi «controlla la sicurezza di questo progetto».
+- **Domande sull'app?** Chiedile all'assistente nella sezione Guida.
+
 ## 1.4.8
 
 - **Benvenuto in zero1code Harness**: il tuo AI code-assistant.
