@@ -2,7 +2,7 @@
 
 Regole per qualunque agente di coding in questo repo. `CLAUDE.md` importa solo questo file.
 
-Catalogo pubblico delle skill letto dall'app desktop di zero1code. Ogni modifica a una skill ricostruisce `index.json` (`node scripts/build-index.mjs`) nello stesso commit; i test (`node --test scripts/`) devono passare.
+Catalogo pubblico delle skill letto dall'app desktop di zero1code. Ogni modifica a una skill ricostruisce `index.json` (`node scripts/build-index.mjs`) nello stesso commit; i test (`node --test "scripts/*.test.mjs"`) devono passare.
 
 ## Skill e comunicazione — NON NEGOZIABILE
 

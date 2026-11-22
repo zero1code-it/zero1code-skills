@@ -23,13 +23,14 @@ export function githubApi({ fetchImpl = fetch, token } = {}) {
 }
 
 /** Compare one catalog source with the head of its repository's default branch. */
-export async function compareSource(source, api) {
+/** `target`: compare with this commit instead of the head of the default branch (a descendant of `ref`). */
+export async function compareSource(source, api, target) {
   const { repo, ref } = source
   const info = await api(`repos/${repo}`)
   if (info === undefined) return { repo, ref, error: 'repository non trovato (rimosso o rinominato)' }
   const branch = info.default_branch
-  const head = await api(`repos/${repo}/commits/${encodeURIComponent(branch)}`)
-  const result = { repo, ref, branch, head: head.sha, archived: info.archived === true, behind: [], removed: [], license: [] }
+  const head = target ? { sha: target } : await api(`repos/${repo}/commits/${encodeURIComponent(branch)}`)
+  const result = { repo, ref, branch, head: head.sha, fullName: info.full_name, archived: info.archived === true, behind: [], removed: [], license: [] }
   if (head.sha === ref) return result
   const listings = new Map()
   const list = async (dir, at) => {
