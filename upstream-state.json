@@ -1,0 +1,80 @@
+{
+  "JuliusBrussee/caveman": [
+    {
+      "sha": "a192894723a8f47e7f504c7b5041967ff1f18e55",
+      "seen": "2026-11-22T01:19:50.450Z"
+    }
+  ],
+  "anthropics/skills": [
+    {
+      "sha": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "seen": "2026-11-22T01:19:50.450Z"
+    }
+  ],
+  "DietrichGebert/ponytail": [
+    {
+      "sha": "dec89d9040ad863decb0207003dcd500cb00aa03",
+      "seen": "2026-11-22T01:19:50.450Z"
+    }
+  ],
+  "emilkowalski/skills": [
+    {
+      "sha": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "seen": "2026-11-22T01:19:50.450Z"
+    }
+  ],
+  "google-labs-code/stitch-skills": [
+    {
+      "sha": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+      "seen": "2026-11-22T01:19:50.450Z"
+    }
+  ],
+  "mattpocock/skills": [
+    {
+      "sha": "abeeaf95660ba9e8b7c753eb38f441ca707a8823",
+      "seen": "2026-11-22T01:19:50.450Z"
+    }
+  ],
+  "pbakaus/impeccable": [
+    {
+      "sha": "b49177d32788f2dc585c42831d845dacf1ebed2c",
+      "seen": "2026-11-22T01:19:50.450Z"
+    }
+  ],
+  "Graphify-Labs/graphify": [
+    {
+      "sha": "3671f31124fdb1de4ec4e485b1bcd7059726a5f3",
+      "seen": "2026-11-22T01:19:50.450Z"
+    }
+  ],
+  "secondsky/sap-skills": [
+    {
+      "sha": "652a861d3ed422b71f01c8805f9ec03b14017cd8",
+      "seen": "2026-11-22T01:19:50.450Z"
+    }
+  ],
+  "vercel-labs/agent-browser": [
+    {
+      "sha": "d2dfc782ccdd79d25a9b4f0acced9321789cecb8",
+      "seen": "2026-11-22T01:19:50.450Z"
+    }
+  ],
+  "vercel-labs/agent-desktop": [
+    {
+      "sha": "e8934a5e95e1d212c74ead95cd3e4701c04eca31",
+      "seen": "2026-11-22T01:19:50.450Z"
+    }
+  ],
+  "vercel-labs/skills": [
+    {
+      "sha": "57217cf86ba38148a57af9e90d14a4c049558330",
+      "seen": "2026-11-22T01:19:50.450Z"
+    }
+  ],
+  "getsentry/skills": [
+    {
+      "sha": "a582c51ee29d0f35e6ac321340796f77d43da733",
+      "seen": "2026-11-22T01:19:50.450Z"
+    }
+  ]
+}
