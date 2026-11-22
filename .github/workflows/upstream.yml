@@ -1,36 +1,123 @@
-# Weekly: report the third-party skills that are behind their author's repository in one issue.
-# Nothing is updated automatically: a maintainer reviews each change and moves `ref` in catalog.json by hand.
+# Weekly automatic update of third-party skills (references in catalog.json `sources` and modified copies in `hostedCopies`).
+# WAIT: a new commit of the author is applied only if this workflow saw it as the head of the default branch at least 7 days
+# earlier; the observations ({sha, seen} per repo) live in upstream-state.json, committed here (a commit that touches only
+# that file, "chore(skills): record upstream heads", when nothing else changed; kept even if the checks fail). Commit dates
+# are the author's and prove nothing. A head not yet old enough is reported as "in attesa", it is not a problem.
+# Flow: scripts/sync-skills.mjs --apply moves `ref` (and rebuilds the copies) only for updates that pass its gates (same
+# repository and fast-forward history, license and frontmatter untouched, no change to scripts or executables, no binaries
+# or invisible Unicode, no suspicious added line, size limits; the source of impeccable alone may change scripts, see README). Then index.json is rebuilt, the same checks as CI run, the
+# result is committed and checked again on the committed tree (git normalizes line endings on commit); only if everything
+# passes the bot pushes to main (fast-forward only: if main moved during the job the push is refused and nothing is
+# published). Anything blocked, or any failure, is reported in the issue "Skill di terzi da rivedere"; the issue is closed
+# when nothing is left to review.
+# Third-party content is never executed here: tests run only on scripts/*.test.mjs, and the token is not persisted in
+# .git/config. Note: a push made with GITHUB_TOKEN does not trigger check.yml, so the checks that matter run here.
 name: upstream
 on:
   schedule:
     - cron: "0 6 * * 1" # Monday 06:00 UTC
   workflow_dispatch:
-permissions:
-  contents: read
-  issues: write
-concurrency: upstream
+permissions: {}
+concurrency:
+  group: upstream
+  cancel-in-progress: false
 jobs:
   upstream:
+    if: github.ref == 'refs/heads/main' # a dispatch from another branch must not push that branch to main
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      issues: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 22
-      - id: check
-        run: node scripts/check-upstream.mjs --out "$RUNNER_TEMP/report.md"
+      - id: sync
+        run: node scripts/sync-skills.mjs --apply --out "$RUNNER_TEMP/report.md"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+      - id: verify
+        if: steps.sync.outputs.changed != '0'
+        continue-on-error: true # handled below: nothing is pushed unless this step succeeded
+        run: |
+          node scripts/build-index.mjs
+          node scripts/build-index.mjs --check
+          env -u GITHUB_TOKEN node --test "scripts/*.test.mjs"
+          node scripts/sync-skills.mjs --verify
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A catalog.json index.json skills upstream-state.json
+          { echo "chore(skills): weekly third-party update"; echo; sed -n '/^## Aggiornate/,/^## Bloccate/{/^- /p}' "$RUNNER_TEMP/report.md"; } > "$RUNNER_TEMP/msg.txt"
+          git commit -q -F "$RUNNER_TEMP/msg.txt"
+          # check what was committed, not the working tree: re-checkout every file from the commit
+          git rm -rq --cached . && git reset -q --hard
+          test -z "$(git status --porcelain)"
+          node scripts/build-index.mjs --check
+          node scripts/sync-skills.mjs --verify
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Keep only the observations if a check failed
+        if: steps.sync.outputs.changed != '0' && steps.verify.outcome == 'failure'
+        run: |
+          # the observations (upstream-state.json) are facts and stay; the skill changes and any commit made by the failed step go
+          cp upstream-state.json "$RUNNER_TEMP/state.json"
+          git reset -q --hard origin/main
+          git clean -fdq skills
+          cp "$RUNNER_TEMP/state.json" upstream-state.json
+      - name: Record the observed heads
+        if: steps.sync.outcome == 'success'
+        run: |
+          # only if the file really changed (a successful update already committed it together with the skills)
+          if [ -n "$(git status --porcelain upstream-state.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add upstream-state.json
+            git commit -q -m "chore(skills): record upstream heads"
+          fi
+      - id: push
+        if: always() && steps.sync.outcome == 'success'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          VERIFY: ${{ steps.verify.outcome }}
+        run: |
+          [ "$(git rev-list --count origin/main..HEAD)" = 0 ] && exit 0 # nothing new to publish
+          # without a successful verify only the observations may go out, whatever happened to the steps above
+          if [ "$VERIFY" != "success" ] && [ "$(git diff --name-only origin/main HEAD)" != "upstream-state.json" ]; then
+            echo "::error::controlli non passati: si pubblica solo upstream-state.json"; git diff --name-only origin/main HEAD; exit 1
+          fi
+          auth=$(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)
+          echo "::add-mask::$auth"
+          git -c http.https://github.com/.extraheader="AUTHORIZATION: basic $auth" push origin HEAD:main
       - name: Open, update or close the issue
+        if: always()
         env:
           GH_TOKEN: ${{ github.token }}
-          BEHIND: ${{ steps.check.outputs.behind }}
+          GH_REPO: ${{ github.repository }}
+          SYNC: ${{ steps.sync.outcome }}
+          BLOCKED: ${{ steps.sync.outputs.blocked }}
+          VERIFY: ${{ steps.verify.outcome }}
+          PUSH: ${{ steps.push.outcome }}
         run: |
-          title="Skill di terzi da aggiornare"
+          report="$RUNNER_TEMP/report.md"
+          [ -f "$report" ] || echo "Nessun report prodotto." > "$report"
+          problem=""
+          if [ "$SYNC" != "success" ]; then problem="Lo script di aggiornamento è fallito: nessuna skill è stata aggiornata."
+          elif [ "$VERIFY" = "failure" ]; then problem="Un controllo è fallito dopo l'aggiornamento automatico: nessuna skill è stata aggiornata (le osservazioni restano registrate)."
+          elif [ "$PUSH" = "failure" ]; then problem="Pubblicazione su main rifiutata (main cambiato durante il job?): non è stato pubblicato nulla, rilancia il workflow."
+          fi
+          if [ -n "$problem" ]; then
+            { echo "$problem"; echo "Vedi il run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"; echo; cat "$report"; } > "$RUNNER_TEMP/body.md"
+          else cp "$report" "$RUNNER_TEMP/body.md"; fi
+          title="Skill di terzi da rivedere"
           n=$(gh issue list --state open --search "\"$title\" in:title" --json number,title --jq "map(select(.title == \"$title\"))[0].number // empty")
-          if [ "$BEHIND" != "0" ]; then
-            if [ -n "$n" ]; then gh issue edit "$n" --body-file "$RUNNER_TEMP/report.md"
-            else gh issue create --title "$title" --body-file "$RUNNER_TEMP/report.md"; fi
+          if [ "$BLOCKED" != "0" ] || [ -n "$problem" ]; then
+            if [ -n "$n" ]; then gh issue edit "$n" --body-file "$RUNNER_TEMP/body.md"
+            else gh issue create --title "$title" --body-file "$RUNNER_TEMP/body.md"; fi
           elif [ -n "$n" ]; then
-            gh issue close "$n" --comment "Tutte le skill di terzi sono allineate."
+            gh issue close "$n" --comment "Nulla da rivedere: tutte le skill di terzi sono allineate o aggiornate."
           fi

@@ -48,6 +48,25 @@ function walk(dir) {
     e.isDirectory() ? (e.name === "__pycache__" ? [] : walk(join(dir, e.name))) : e.isFile() && !e.name.endsWith(".pyc") ? [join(dir, e.name)] : [])
 }
 
+const str = (v) => typeof v === 'string' && v !== ''
+
+/** Shape errors of catalog.json `hostedCopies` (see scripts/sync-skills.mjs). */
+export function copyErrors(copies) {
+  const errors = []
+  for (const [name, c] of Object.entries(copies)) {
+    const bad = (msg) => errors.push(`hostedCopies ${name}: ${msg}`)
+    if (!/^[\w.-]+\/[\w.-]+$/.test(c.repo ?? '')) bad('repo must be owner/name')
+    if (!SHA.test(c.ref ?? '')) bad('ref must be a 40-character commit')
+    if (!str(c.path)) bad('path is required')
+    if (!str(c.license)) bad('license is required')
+    if ('allowScriptChanges' in c) bad('allowScriptChanges is not allowed on hosted copies (they are defaults of the app)')
+    if (c.exclude !== undefined && !(Array.isArray(c.exclude) && c.exclude.every(str))) bad('exclude must be a list of paths')
+    if (c.extraFiles !== undefined && !(typeof c.extraFiles === 'object' && Object.values(c.extraFiles).every(str))) bad('extraFiles must map dest to repo path')
+    if (c.edits !== undefined && !(Array.isArray(c.edits) && c.edits.every((e) => str(e?.file) && str(e?.from) && typeof e?.to === 'string'))) bad('edits must be [{file, from, to}] strings')
+  }
+  return errors
+}
+
 /** Skills that live in this repository. */
 /** Group shown for every skill hosted here, whatever else `hostedGroups` in catalog.json adds. */
 const OWN_GROUP = 'zero1code skill'
@@ -56,10 +75,12 @@ const MAX_GROUPS = 4
 /**
  * @param defaultSkills - names from catalog.json `defaultSkills`: hosted skills the desktop app ships and installs by itself
  *   (marked `default: true` in the index). Every name must be a skill hosted here.
+ * @param hostedCopies - catalog.json `hostedCopies`: hosted skills that are modified copies of someone else's work. They are
+ *   validated here and do NOT get OWN_GROUP (they are not ours); scripts/sync-skills.mjs keeps them up to date.
  */
-export function hosted(root, hostedGroups = {}, defaultSkills = []) {
+export function hosted(root, hostedGroups = {}, defaultSkills = [], hostedCopies = {}) {
   const skillsDir = join(root, 'skills')
-  const errors = []
+  const errors = copyErrors(hostedCopies)
   const skills = []
   const names = existsSync(skillsDir)
     ? readdirSync(skillsDir, { withFileTypes: true }).filter((e) => e.isDirectory()).map((e) => e.name).sort()
@@ -82,10 +103,11 @@ export function hosted(root, hostedGroups = {}, defaultSkills = []) {
     if (files.reduce((n, f) => n + f.size, 0) > MAX_BYTES) fail(`larger than ${MAX_BYTES} bytes`)
     skills.push({
       name, description: meta.description ?? '', license: meta.license ?? '', category: meta.metadata?.category ?? '',
-      author: meta.metadata?.author ?? '', groups: [OWN_GROUP, ...(hostedGroups[name] ?? [])],
+      author: meta.metadata?.author ?? '', groups: [...(name in hostedCopies ? [] : [OWN_GROUP]), ...(hostedGroups[name] ?? [])],
       hasScripts: hasScripts(files.map((f) => f.path)), ...(defaultSkills.includes(name) ? { default: true } : {}), files,
     })
   }
+  for (const name of Object.keys(hostedCopies)) if (!names.includes(name)) errors.push(`hostedCopies: ${name} is not a skill hosted in skills/`)
   for (const name of defaultSkills) if (!names.includes(name)) errors.push(`defaultSkills: ${name} is not a skill hosted in skills/`)
   return { errors, skills }
 }
@@ -176,7 +198,7 @@ export function render(skills) {
 export function check(root, indexText, catalog) {
   const errors = []
   const index = JSON.parse(indexText)
-  const h = hosted(root, catalog.hostedGroups, catalog.defaultSkills)
+  const h = hosted(root, catalog.hostedGroups, catalog.defaultSkills, catalog.hostedCopies)
   errors.push(...h.errors)
   const want = JSON.stringify(h.skills)
   const have = JSON.stringify(index.skills.filter((s) => s.repo === undefined))
@@ -198,8 +220,9 @@ if (process.argv[1]?.endsWith('build-index.mjs')) { // CLI only; the tests impor
     if (errors.length) { console.error(errors.join('\n')); process.exit(1) }
     console.log('index.json: consistent')
   } else {
-    const h = hosted(root, readCatalog(root).hostedGroups, readCatalog(root).defaultSkills)
-    const e = await external(readCatalog(root), { token: process.env.GITHUB_TOKEN })
+    const catalog = readCatalog(root)
+    const h = hosted(root, catalog.hostedGroups, catalog.defaultSkills, catalog.hostedCopies)
+    const e = await external(catalog, { token: process.env.GITHUB_TOKEN })
     const errors = [...h.errors, ...e.errors]
     if (errors.length) { console.error(errors.join('\n')); process.exit(1) }
     writeFileSync(file, render([...h.skills, ...e.skills]))

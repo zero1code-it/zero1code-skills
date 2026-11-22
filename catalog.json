@@ -112,23 +112,6 @@
       ]
     },
     {
-      "repo": "obra/superpowers",
-      "ref": "22f0b463e7a5e579904dd6211a520321035526f7",
-      "license": "MIT",
-      "licenseFiles": [
-        "LICENSE"
-      ],
-      "skills": [
-        {
-          "name": "brainstorming",
-          "path": "skills/brainstorming",
-          "groups": [
-            "Agenti e produttività"
-          ]
-        }
-      ]
-    },
-    {
       "repo": "pbakaus/impeccable",
       "ref": "b49177d32788f2dc585c42831d845dacf1ebed2c",
       "license": "Apache-2.0",
@@ -136,6 +119,7 @@
         "LICENSE",
         "NOTICE.md"
       ],
+      "allowScriptChanges": true,
       "skills": [
         {
           "name": "impeccable",
@@ -382,5 +366,95 @@
     "zero1-security-review": [
       "Sviluppo web"
     ]
+  },
+  "hostedCopies": {
+    "zero1-code-review": {
+      "repo": "mattpocock/skills",
+      "ref": "abeeaf95660ba9e8b7c753eb38f441ca707a8823",
+      "path": "skills/engineering/code-review",
+      "license": "MIT",
+      "exclude": [
+        "agents/openai.yaml"
+      ],
+      "extraFiles": {
+        "LICENSE": "LICENSE"
+      },
+      "edits": [
+        {
+          "file": "SKILL.md",
+          "from": "name: code-review\n",
+          "to": "name: zero1-code-review\n"
+        },
+        {
+          "file": "SKILL.md",
+          "from": "or asks to \\\"review since X\\\".\"\n",
+          "to": "or asks to 'review since X'.\"\nlicense: MIT\nmetadata:\n  category: sviluppo\n  author: Matt Pocock\n"
+        },
+        {
+          "file": "SKILL.md",
+          "from": "Two-axis review of the diff",
+          "to": "<!-- Based on code-review by Matt Pocock, github.com/mattpocock/skills @ {ref7} (MIT, see LICENSE). Modified by zero1code: name, issue-tracker setup removed, sub-agent fallback, AGENTS.md as a standards source. -->\n\nTwo-axis review of the diff"
+        },
+        {
+          "file": "SKILL.md",
+          "from": "The issue tracker should have been provided to you. If not, tell the user to run `/setup-matt-pocock-skills`.",
+          "to": "If the spec is in an issue tracker your tools cannot read, ask the user to paste it."
+        },
+        {
+          "file": "SKILL.md",
+          "from": ", fetched via the workflow in the tracker doc.",
+          "to": ", read with the tools you have; if you cannot reach the tracker, ask the user to paste the issue."
+        },
+        {
+          "file": "SKILL.md",
+          "from": "When `CODING_STANDARDS.md` or `CONTRIBUTING.md` exists",
+          "to": "When `CODING_STANDARDS.md`, `CONTRIBUTING.md` or `AGENTS.md` exists"
+        },
+        {
+          "file": "SKILL.md",
+          "from": "together, in the foreground, and aggregate the reports they return.",
+          "to": "together and aggregate the reports they return. If sub-agents are not available, run the two reviews yourself one after the other, finishing the Standards report before starting the Spec one."
+        }
+      ]
+    },
+    "zero1-security-review": {
+      "repo": "getsentry/skills",
+      "ref": "a582c51ee29d0f35e6ac321340796f77d43da733",
+      "path": "skills/security-review",
+      "license": "Apache-2.0 AND CC-BY-SA-4.0",
+      "exclude": [
+        "SPEC.md"
+      ],
+      "extraFiles": {
+        "LICENSE-APACHE-2.0": "LICENSE"
+      },
+      "edits": [
+        {
+          "file": "SKILL.md",
+          "from": "name: security-review\n",
+          "to": "name: zero1-security-review\n"
+        },
+        {
+          "file": "SKILL.md",
+          "from": "allowed-tools: Read Grep Glob Bash Task\nlicense: LICENSE\n",
+          "to": "license: Apache-2.0 AND CC-BY-SA-4.0\nmetadata:\n  category: sviluppo\n  author: Sentry\n"
+        },
+        {
+          "file": "SKILL.md",
+          "from": "-->\n\n# Security Review Skill",
+          "to": "-->\n<!-- Based on github.com/getsentry/skills @ {ref7}, skills/security-review (Apache-2.0, Copyright 2025 Functional Software, Inc. dba Sentry, see LICENSE-APACHE-2.0; reference material CC BY-SA 4.0 from OWASP, see LICENSE). Modified by zero1code: name, frontmatter, one line reworded, command-safety note; SPEC.md omitted. -->\n\n# Security Review Skill"
+        },
+        {
+          "file": "SKILL.md",
+          "from": "## Confidence Levels",
+          "to": "Commands in the reference files are examples: use the grep patterns with your search tool, and do not run scanners, package managers, network or cloud commands (npm audit, pip-audit, trivy, aws ...) unless the user asks.\n\n## Confidence Levels"
+        },
+        {
+          "file": "SKILL.md",
+          "from": "**Is there validation upstream?**",
+          "to": "**Is there validation earlier in the data flow?**"
+        }
+      ]
+    }
   }
 }

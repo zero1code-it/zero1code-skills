@@ -10,8 +10,10 @@ Pubblico in lettura. Solo i collaboratori dell'organizzazione scrivono su `main`
   terzi che servono come predefinite (una predefinita deve essere ospitata): `zero1-code-review` (da
   `mattpocock/skills`, MIT) e `zero1-security-review` (da `getsentry/skills`, Apache-2.0, con riferimenti OWASP
   CC BY-SA 4.0). Tengono la licenza degli autori nella loro cartella e, in testa a `SKILL.md`, la sorgente, il commit
-  di partenza e le modifiche. Il controllo settimanale delle sorgenti non le segue: per aggiornarle si confronta a mano
-  il repository dell'autore con il commit indicato.
+  di partenza e le modifiche. Le modifiche sono descritte come dati in `catalog.json` (`hostedCopies`: repo, `ref`,
+  cartella, file esclusi, file extra dalla radice, `edits` testo→testo) e `scripts/sync-skills.mjs` le riapplica a ogni
+  aggiornamento; `node scripts/sync-skills.mjs --verify` controlla che la cartella coincida byte per byte con l'originale
+  al `ref` più le modifiche. Non ricevono il gruppo `zero1code skill` (non sono nostre).
 - **Riferimenti** (`catalog.json`): skill di terzi. **Qui non c'è nessuna copia del loro lavoro.** L'indice riporta, per ogni
   skill, il repository dell'autore, un commit fissato e l'hash di ogni file. L'app scarica da `raw.githubusercontent.com` a quel
   commit, verifica dimensione e sha256 e mette accanto alla skill i file di licenza del repository originale (`LICENSE`,
@@ -54,12 +56,41 @@ nessuno script.
    i file; `rename` ne rinomina uno (es. `skill.md` → `SKILL.md`). Il nome nel catalogo deve coincidere con il campo `name`
    del suo `SKILL.md`.
 3. `GITHUB_TOKEN=$(gh auth token) node scripts/build-index.mjs` scarica i file ai commit indicati e rigenera `index.json`.
-4. Per aggiornare una skill si cambia `ref` e si rigenera: il commit fissato è ciò che l'utente riceve, non il ramo.
+4. L'aggiornamento è automatico (vedi sotto): non serve spostare `ref` a mano.
 
-Ogni lunedì il workflow `upstream` (`scripts/check-upstream.mjs`, si può lanciare anche a mano da Actions o in locale con
-`GITHUB_TOKEN=$(gh auth token) node scripts/check-upstream.mjs`) confronta ogni `ref` con il ramo predefinito dell'autore
-e tiene aperta l'issue «Skill di terzi da aggiornare» con le skill la cui cartella è cambiata, sparita o la cui licenza è
-cambiata. Non aggiorna nulla: chi mantiene il catalogo rivede il diff e sposta `ref` a mano.
+Ogni lunedì il workflow `upstream` (`scripts/sync-skills.mjs`, lanciabile anche a mano da Actions o in locale con
+`GITHUB_TOKEN=$(gh auth token) node scripts/sync-skills.mjs [--apply]`; senza `--apply` è un dry run che non scrive nemmeno lo stato) porta `ref` a un nuovo commit dell'autore, per
+i riferimenti e per le copie ospitate, solo se **lo abbiamo visto come testa del ramo predefinito da almeno 7 giorni** e se passa
+tutti i cancelli. L'attesa si basa sulle nostre osservazioni, non sulle date dei commit (le sceglie l'autore): a ogni
+esecuzione il workflow registra la testa di ogni repository in `upstream-state.json` (`{sha, seen}`, al massimo 20 per repository,
+nessuna più vecchia di 60 giorni) e lo committa da solo (`chore(skills): record upstream heads`, solo se il file è cambiato; si
+committa anche se i controlli falliscono). Il candidato è l'osservazione più recente vecchia di 7 giorni che discende dal `ref`
+attuale e precede o è la testa e ogni testa osservata dopo di lui (un commit nascosto da un force-push e poi rimesso non
+conta come pubblico da 7 giorni); una testa che torna dopo un'altra riparte da zero. Se la testa ha tolto righe o file che il
+candidato aveva aggiunto (es. un revert dopo una compromissione, o una riga appena aggiunta e già cambiata) il candidato non si
+pubblica e si aspetta la testa. Una testa non ancora abbastanza vecchia è «in attesa» nel report (non è un problema, non apre
+l'issue). `--now` simula il tempo solo nei dry run locali: è rifiutato in CI e con `--apply`. Cancelli: stesso repository (non rinominato né trasferito) e
+nuovo commit discendente da quello fissato (niente force-push o cambio di ramo su un'altra storia); nessun file di licenza
+cambiato o sparito; frontmatter di `SKILL.md` invariato salvo `description`, `argument-hint`, `metadata` e simili (licenza,
+`allowed-tools`, modello… bloccano); **nessuna modifica** (aggiunta, cambio, rimozione, cambio di modo) a script o file
+eseguibili (estensioni di `hasScripts`, cartelle `scripts/` a qualunque livello, modo 100755); niente link simbolici,
+sottomoduli, file binari (salvo immagini e font), caratteri Unicode invisibili o percorsi non sicuri; nessuna riga aggiunta
+sospetta (istruzioni di ignorare le precedenti, scarica-ed-esegui, invio di dati, segreti, installazioni, `rm -rf`,
+`chmod +x`…, anche divise su due righe o scritte con caratteri equivalenti); limiti di file e dimensione; per le copie le
+`edits` ancora applicabili e nessun fine riga CR. Le righe sospette sono un allarme, non una garanzia: un testo che dice
+all'agente di fare danni senza quelle parole passa. Una sorgente con più skill si aggiorna solo se passano tutte.
+
+**Eccezione sugli script** (decisa da Marco il 22/11/2026): la sorgente di `impeccable` ha `"allowScriptChanges": true` in
+`catalog.json`, perché cambia gli script a quasi ogni rilascio. Per lei modifica, aggiunta, rimozione di script e cambio di
+modo 100755 non bloccano e il report li elenca a parte (`Script cambiati`); restano attivi attesa, licenza, discendenza,
+frontmatter, Unicode, binari, percorsi, limiti e le righe sospette, che valgono anche dentro gli script. Il campo è vietato
+sulle copie ospitate (le predefinite): `build-index.mjs` lo rifiuta.
+
+Poi ricostruisce `index.json`, esegue `--check`,
+i test e `--verify` e, se tutto passa, committa e pubblica su `main`. Solo i casi bloccati (o un controllo fallito, nel
+qual caso non si aggiorna nessuna skill) finiscono nell'issue «Skill di terzi da rivedere», con il motivo e il link al confronto:
+si rivede il diff e si sposta `ref` a mano (per le copie, adattando le `edits`). `scripts/check-upstream.mjs` resta come
+controllo di sola lettura.
 
 ## Gruppi
 
@@ -84,7 +115,7 @@ Aggiungere o togliere una predefinita richiede un rilascio dell'app.
 
 ## Controlli
 
-`node --test` e `node scripts/build-index.mjs --check` (offline: l'indice corrisponde a `skills/` e a `catalog.json`) girano
+`node --test "scripts/*.test.mjs"` e `node scripts/build-index.mjs --check` (offline: l'indice corrisponde a `skills/` e a `catalog.json`) girano
 in CI. Limiti per skill: 200 file, 5 MB. `hasScripts: true` segnala `scripts/` o file eseguibili: l'app lo mostra prima
 dell'installazione; rivedi ogni script prima di aggiungere la voce.
 

@@ -92,3 +92,14 @@ test('check passes on a fresh index and fails when catalog.json drifts', async (
   const moved = { sources: [{ ...catalog.sources[0], ref: 'b'.repeat(40) }] }
   assert.equal(check(root, text, moved).length, 1)
 })
+
+test('hosted copies do not get the own group and are validated', () => {
+  const root = mkdtempSync(join(tmpdir(), 'skills-'))
+  skill(root, 'copy', 'name: copy\ndescription: Does.\nlicense: MIT')
+  const ok = { copy: { repo: 'a/b', ref: REF, path: 'p', license: 'MIT', exclude: ['x'], extraFiles: { LICENSE: 'LICENSE' }, edits: [{ file: 'SKILL.md', from: 'a', to: '' }] } }
+  const r = hosted(root, { copy: ['Sviluppo web'] }, [], ok)
+  assert.deepEqual(r.errors, [])
+  assert.deepEqual(r.skills[0].groups, ['Sviluppo web'])
+  assert.match(hosted(root, {}, [], { copy: { ...ok.copy, ref: 'x', edits: [{ file: 'SKILL.md', from: 1 }] } }).errors.join(), /ref must be[\s\S]*edits must be/)
+  assert.deepEqual(hosted(root, {}, [], { gone: ok.copy }).errors, ['hostedCopies: gone is not a skill hosted in skills/'])
+})
