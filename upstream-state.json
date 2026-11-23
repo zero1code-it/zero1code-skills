@@ -1,6 +1,10 @@
 {
   "JuliusBrussee/caveman": [
     {
+      "sha": "b89752f6bca5a26bfde8b019813554241800ca99",
+      "seen": "2026-11-23T17:37:36.777Z"
+    },
+    {
       "sha": "a192894723a8f47e7f504c7b5041967ff1f18e55",
       "seen": "2026-11-22T01:19:50.450Z"
     }
@@ -12,6 +16,10 @@
     }
   ],
   "DietrichGebert/ponytail": [
+    {
+      "sha": "ebd8654c2c627f721eb8f9c0d1bd4090a29f9e10",
+      "seen": "2026-11-23T17:37:36.777Z"
+    },
     {
       "sha": "dec89d9040ad863decb0207003dcd500cb00aa03",
       "seen": "2026-11-22T01:19:50.450Z"
@@ -43,6 +51,10 @@
   ],
   "Graphify-Labs/graphify": [
     {
+      "sha": "5ce8fceff41d1b636f872b6206b917ec2af7ac54",
+      "seen": "2026-11-23T17:37:36.777Z"
+    },
+    {
       "sha": "3671f31124fdb1de4ec4e485b1bcd7059726a5f3",
       "seen": "2026-11-22T01:19:50.450Z"
     }
@@ -55,11 +67,19 @@
   ],
   "vercel-labs/agent-browser": [
     {
+      "sha": "c091f702a731499070f32f2f3136c5bcb8b0e60f",
+      "seen": "2026-11-23T17:37:36.777Z"
+    },
+    {
       "sha": "d2dfc782ccdd79d25a9b4f0acced9321789cecb8",
       "seen": "2026-11-22T01:19:50.450Z"
     }
   ],
   "vercel-labs/agent-desktop": [
+    {
+      "sha": "8f4b69003d586afb69e3a2b91666f84e2c720c30",
+      "seen": "2026-11-23T17:37:36.777Z"
+    },
     {
       "sha": "e8934a5e95e1d212c74ead95cd3e4701c04eca31",
       "seen": "2026-11-22T01:19:50.450Z"
